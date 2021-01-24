@@ -1,4 +1,5 @@
-$grid-template: repeat(3, 30%);
+$mobile-grid-template: 90%;
+$desktop-grid-template: repeat(3, 30%);
 
 #app {
   color: black;
@@ -8,12 +9,16 @@ $grid-template: repeat(3, 30%);
 
   .hero-component {
     display: grid;
-    grid-template: $grid-template / $grid-template;
+    grid-template: $mobile-grid-template / $mobile-grid-template;
     justify-content: center;
     align-content: center;
     position: relative;
     width: 100%;
     height: 100vh;
+
+    @media screen and (min-width: 600px) {
+      grid-template: $desktop-grid-template / $desktop-grid-template;
+    }
 
     & > * {
       align-self: center;
@@ -24,11 +29,52 @@ $grid-template: repeat(3, 30%);
       }
     }
 
-    &.home {
-      text-shadow: 1px 1px 1px white;
+    .home-content {
+      color: white;
+
+      a {
+        color: lightcyan;
+      }
+
+      @media screen and (min-width: 600px) {
+        color: black;
+
+        a {
+          color: navy;
+        }
+      }
 
       .copyright {
-        opacity: .6;
+        opacity: .8;
+      }
+    }
+
+    .about-me-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+      img {
+        width: 50%;
+      }
+
+      .about-me-text {
+        padding: 2rem;
+      }
+
+      @media screen and (min-width: 600px) {
+        flex-direction: row;
+        min-width: 50rem;
+
+        img {
+          width: 75%;
+        }
+
+        .about-me-text {
+          text-align: end;
+          margin-left: 5rem;
+        }
       }
     }
 
@@ -61,6 +107,10 @@ $grid-template: repeat(3, 30%);
         }
       }
     }
+  }
+
+  .headshot {
+    border-radius: 500px;
   }
 
   .carousel {

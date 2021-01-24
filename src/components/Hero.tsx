@@ -7,7 +7,7 @@ interface HeroProps {
 }
 
 const Hero = ({ className = "", backgroundVideo, children }: HeroProps) => (
-  <div
+  <section
     className={`hero-component ${className}`.trim()}
   >
     {backgroundVideo && (
@@ -20,7 +20,7 @@ const Hero = ({ className = "", backgroundVideo, children }: HeroProps) => (
       />
     )}
     {children}
-  </div>
+  </section>
 );
 
 export default Hero;

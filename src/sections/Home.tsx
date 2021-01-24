@@ -1,12 +1,12 @@
 import React from "react";
-import Hero from "./Hero";
-import Links from "./Links";
-import Copyright from "./Copyright";
-import Video from "../Portfolio_Video.mp4";
+import Hero from "../components/Hero";
+import Links from "../components/Links";
+import Copyright from "../components/Copyright";
+import Video from "../assets/Portfolio_Video.mp4";
 
 const Home = () => (
   <Hero backgroundVideo={Video} className="home">
-    <div className="grid-left grid-v-center">
+    <div className="home-content grid-left grid-v-center">
       <h1>Brandon Rowe</h1>
       <h3>Fullstack Software Engineer</h3>
       <Links />

@@ -1,6 +1,6 @@
 import React from "react";
-import Home from "./components/Home";
-import AboutMe from "./components/AboutMe";
+import Home from "./sections/Home";
+import AboutMe from "./sections/AboutMe";
 import "./App.scss";
 
 const App = () => (
