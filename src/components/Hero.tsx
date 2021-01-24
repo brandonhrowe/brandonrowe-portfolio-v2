@@ -3,11 +3,13 @@ import React from "react";
 interface HeroProps {
   className?: string;
   backgroundVideo?: string;
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 const Hero = ({ className = "", backgroundVideo, children }: HeroProps) => (
-  <div className={`hero-component ${className}`.trim()}>
+  <div
+    className={`hero-component ${className}`.trim()}
+  >
     {backgroundVideo && (
       <video
         className="background-video"
