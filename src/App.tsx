@@ -1,10 +1,12 @@
 import React from "react";
-import Content from "./components/Content";
+import Home from "./components/Home";
+import AboutMe from "./components/AboutMe";
 import "./App.scss";
 
 const App = () => (
   <div id="app">
-    <Content />
+    <Home />
+    <AboutMe />
   </div>
 );
 
