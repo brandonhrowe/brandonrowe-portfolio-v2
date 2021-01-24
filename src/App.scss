@@ -1,5 +1,7 @@
-$mobile-grid-template: 90%;
-$desktop-grid-template: repeat(3, 30%);
+$grid-template-mobile: 90%;
+$grid-template-desktop: repeat(3, 30%);
+$icon-color-primary: lightcyan;
+$icon-color-secondary: navy;
 
 #app {
   color: black;
@@ -9,7 +11,7 @@ $desktop-grid-template: repeat(3, 30%);
 
   .hero-component {
     display: grid;
-    grid-template: $mobile-grid-template / $mobile-grid-template;
+    grid-template: $grid-template-mobile / $grid-template-mobile;
     justify-content: center;
     align-content: center;
     position: relative;
@@ -17,7 +19,7 @@ $desktop-grid-template: repeat(3, 30%);
     height: 100vh;
 
     @media screen and (min-width: 600px) {
-      grid-template: $desktop-grid-template / $desktop-grid-template;
+      grid-template: $grid-template-desktop / $grid-template-desktop;
     }
 
     & > * {
@@ -33,19 +35,15 @@ $desktop-grid-template: repeat(3, 30%);
       color: white;
 
       a {
-        color: lightcyan;
+        color: $icon-color-primary;
       }
 
       @media screen and (min-width: 600px) {
         color: black;
 
         a {
-          color: navy;
+          color: $icon-color-secondary;
         }
-      }
-
-      .copyright {
-        opacity: .8;
       }
     }
 
@@ -88,7 +86,7 @@ $desktop-grid-template: repeat(3, 30%);
 
   .links-component {
     a {
-      color: navy;
+      color: $icon-color-primary;
       opacity: 0.6;
       text-decoration: none;
       padding-right: 0.75rem;
@@ -109,8 +107,24 @@ $desktop-grid-template: repeat(3, 30%);
     }
   }
 
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7rem;
+    background: linear-gradient(#00000000, #00000099);
+    color: white;
+  }
+
   .headshot {
     border-radius: 500px;
+  }
+
+  .copyright {
+    margin: 0;
+    padding: 1rem 0;
+    opacity: .8;
   }
 
   .carousel {

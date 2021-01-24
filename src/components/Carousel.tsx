@@ -18,6 +18,17 @@ const Carousel = ({ children }: CarouselProps) => {
     });
   }
 
+  const sortChildrenBackward = async (iterations = 1) => {
+    await setSortedChildren((prevState: any) => {
+      let result = Array.isArray(prevState) ? [...prevState] : [];
+      for (let i = 0; i < iterations; i++) {
+        const firstItem = result.shift();
+        result = [...result, firstItem];
+      }
+      return result;
+    });
+  }
+
   const centerChildren = async () => {
     const midIdx = Math.floor(sortedChildren.length / 2);
     await sortChildrenForward(midIdx);

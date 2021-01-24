@@ -7,7 +7,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-interface LinksProps {
+interface PersonalLinksProps {
   className?: string
 };
 
@@ -34,7 +34,7 @@ const links = [
   },
 ];
 
-const Links = ({ className = "" }: LinksProps) => (
+const Links = ({ className = "" }: PersonalLinksProps) => (
   <div className={`links-component ${className}`}>
     {links.map(({ component, link, key }) => (
       <a href={link} key={key}>
