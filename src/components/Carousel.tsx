@@ -7,7 +7,7 @@ interface CarouselProps {
 const Carousel = ({ children }: CarouselProps) => {
   const [sortedChildren, setSortedChildren] = useState(children);
 
-  const centerChildren = async (iterations = 1) => {
+  const sortChildrenForward = async (iterations = 1) => {
     await setSortedChildren((prevState: any) => {
       let result = Array.isArray(prevState) ? [...prevState] : [];
       for (let i = 0; i < iterations; i++) {
@@ -16,11 +16,15 @@ const Carousel = ({ children }: CarouselProps) => {
       }
       return result;
     });
+  }
+
+  const centerChildren = async () => {
+    const midIdx = Math.floor(sortedChildren.length / 2);
+    await sortChildrenForward(midIdx);
   };
 
   useEffect(() => {
-    const midIdx = Math.floor(sortedChildren.length / 2);
-    centerChildren(midIdx);
+    centerChildren();
   }, []);
 
   return <div className="carousel">{sortedChildren}</div>;

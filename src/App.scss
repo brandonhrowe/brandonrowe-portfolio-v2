@@ -27,6 +27,29 @@ $grid-template: repeat(5, 15%);
     }
   }
 
+  .links-component {
+    a {
+      color: darkkhaki;
+      opacity: .8;
+      text-decoration: none;
+      padding-right: .75rem;
+
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+
+      &:hover {
+        opacity: 1;
+
+        svg {
+          transform: scale(1.5);
+          transition: transform .25s;
+        }
+      }
+    }
+  }
+
   .carousel {
     display: flex;
     flex-direction: row;
