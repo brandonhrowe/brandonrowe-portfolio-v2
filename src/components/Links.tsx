@@ -11,15 +11,16 @@ type LinkObj = {
 interface LinksProps {
   className?: string;
   links: LinkObj[];
+  size?: any;
 }
 
-const Links = ({ className = "", links = [] }: LinksProps) => (
+const Links = ({ className = "", links = [], size = "lg" }: LinksProps) => (
   <div className={`links-component ${className}`}>
     {links.map(({ component, link, key, title }) => (
       <span key={key} className={title ? "text-link" : ""}>
         <a href={link} target="_blank" rel="noreferrer">
           {title ? `${title} ` : ""}
-          <FontAwesomeIcon icon={component} />
+          <FontAwesomeIcon icon={component} size={size} />
         </a>
       </span>
     ))}
