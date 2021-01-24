@@ -18,13 +18,17 @@ $grid-template: repeat(3, 30%);
     & > * {
       align-self: center;
       justify-self: center;
+
+      &:not(.background-video) {
+        z-index: 2;
+      }
     }
 
     &.home {
-      color: white;
+      text-shadow: 1px 1px 1px white;
 
-      & > *:not(.background-video) {
-        z-index: 5;
+      .copyright {
+        opacity: .6;
       }
     }
 
@@ -38,8 +42,8 @@ $grid-template: repeat(3, 30%);
 
   .links-component {
     a {
-      color: darkkhaki;
-      opacity: 0.8;
+      color: navy;
+      opacity: 0.6;
       text-decoration: none;
       padding-right: 0.75rem;
 

@@ -2,7 +2,7 @@ import React from "react";
 import Hero from "./Hero";
 import Links from "./Links";
 import Copyright from "./Copyright";
-import Video from "../video.mp4";
+import Video from "../Portfolio_Video.mp4";
 
 const Home = () => (
   <Hero backgroundVideo={Video} className="home">
