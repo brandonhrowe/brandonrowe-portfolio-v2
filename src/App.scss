@@ -37,17 +37,9 @@ $icon-color-secondary: navy;
       color: white;
       text-align: center;
 
-      a {
-        color: $icon-color-primary;
-      }
-
       @media screen and (min-width: 600px) {
         color: black;
         text-align: left;
-
-        a {
-          color: $icon-color-secondary;
-        }
       }
     }
 
@@ -63,6 +55,7 @@ $icon-color-secondary: navy;
 
       .about-me-text {
         padding: 2rem;
+        text-align: center;
       }
 
       @media screen and (min-width: 600px) {
@@ -89,26 +82,57 @@ $icon-color-secondary: navy;
   }
 
   .links-component {
-    a {
-      color: $icon-color-primary;
-      opacity: 0.6;
-      text-decoration: none;
-      padding-right: 0.75rem;
+    span {
+      a {
+        color: $icon-color-primary;
+        opacity: 0.6;
+        text-decoration: none;
+        padding-right: 0.75rem;
 
-      svg {
-        width: 1.5rem;
-        height: 1.5rem;
+        svg {
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+
+        &:hover {
+          opacity: 1;
+        }
       }
 
-      &:hover {
-        opacity: 1;
-
+      &:not(.text-link):hover {
         svg {
           transform: scale(1.5);
           transition: transform 0.25s;
         }
       }
     }
+  }
+
+  .card-component {
+    display: flex;
+    justify-content: center;
+    background: gray;
+    min-width: 75vw;
+
+    .card-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+
+      .card-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 1rem;
+
+        span {
+          text-align: center;
+        }
+      }
+    }
+
   }
 
   footer {
@@ -153,5 +177,22 @@ $icon-color-secondary: navy;
   }
   .grid-v-center {
     grid-row: 2;
+  }
+
+  .icons-mobile-primary span * {
+    color: $icon-color-primary;
+  }
+  .icons-desktop-primary span * {
+    @media screen and (min-width: 600px) {
+      color: $icon-color-primary;
+    }
+  }
+  .icons-mobile-secondary span * {
+    color: $icon-color-secondary;
+  }
+  .icons-desktop-secondary span * {
+    @media screen and (min-width: 600px) {
+      color: $icon-color-secondary;
+    }
   }
 }

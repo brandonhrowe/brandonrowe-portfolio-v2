@@ -1,10 +1,13 @@
 import React from "react";
-import PersonalLinks from "../components/PersonalLinks";
+import Links from "../components/Links";
 import Copyright from "../components/Copyright";
+import constants from "../constants";
+
+const { personalLinks } = constants;
 
 const Footer = () => (
   <footer>
-    <PersonalLinks />
+    <Links links={personalLinks} />
     <Copyright />
   </footer>
 );

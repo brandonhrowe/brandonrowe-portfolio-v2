@@ -1,15 +1,21 @@
 import React from "react";
 import Hero from "../components/Hero";
-import PersonalLinks from "../components/PersonalLinks";
+import Links from "../components/Links";
 import Copyright from "../components/Copyright";
 import Video from "../assets/Portfolio_Video.mp4";
+import constants from "../constants";
+
+const { personalLinks } = constants;
 
 const Home = () => (
   <Hero backgroundVideo={Video} className="home">
     <div className="home-content grid-left grid-v-center">
       <h1>Brandon Rowe</h1>
       <h3>Fullstack Software Engineer</h3>
-      <PersonalLinks />
+      <Links
+        links={personalLinks}
+        className="icons-mobile-primary icons-desktop-secondary"
+      />
       <Copyright />
     </div>
   </Hero>
