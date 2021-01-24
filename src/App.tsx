@@ -1,11 +1,11 @@
-import React from 'react';
-import Body from './components/Body';
-import './App.scss';
+import React from "react";
+import Content from "./components/Content";
+import "./App.scss";
 
-function App() {
-  return (
-    <Body />
-  );
-}
+const App = () => (
+  <div id="app">
+    <Content />
+  </div>
+);
 
 export default App;
