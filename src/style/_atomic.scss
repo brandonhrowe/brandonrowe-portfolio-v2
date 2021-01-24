@@ -1,0 +1,35 @@
+.grid-left {
+  grid-column: 1;
+}
+.grid-right {
+  grid-column: 3;
+}
+.grid-h-center {
+  grid-column: 2;
+}
+.grid-top {
+  grid-row: 1;
+}
+.grid-bottom {
+  grid-row: 3;
+}
+.grid-v-center {
+  grid-row: 2;
+}
+
+.icons-mobile-primary span * {
+  color: $icon-color-primary;
+}
+.icons-desktop-primary span * {
+  @media screen and (min-width: 600px) {
+    color: $icon-color-primary;
+  }
+}
+.icons-mobile-secondary span * {
+  color: $icon-color-secondary;
+}
+.icons-desktop-secondary span * {
+  @media screen and (min-width: 600px) {
+    color: $icon-color-secondary;
+  }
+}

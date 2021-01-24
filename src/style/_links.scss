@@ -1,0 +1,26 @@
+.links-component {
+  span {
+    a {
+      color: $icon-color-primary;
+      opacity: 0.6;
+      text-decoration: none;
+      padding-right: 0.75rem;
+
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    &:not(.text-link):hover {
+      svg {
+        transform: scale(1.5);
+        transition: transform 0.25s;
+      }
+    }
+  }
+}

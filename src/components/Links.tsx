@@ -17,7 +17,7 @@ const Links = ({ className = "", links = [] }: LinksProps) => (
   <div className={`links-component ${className}`}>
     {links.map(({ component, link, key, title }) => (
       <span key={key} className={title ? "text-link" : ""}>
-        <a href={link}>
+        <a href={link} target="_blank" rel="noreferrer">
           {title ? `${title} ` : ""}
           <FontAwesomeIcon icon={component} />
         </a>

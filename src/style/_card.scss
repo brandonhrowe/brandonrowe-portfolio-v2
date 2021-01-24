@@ -1,0 +1,25 @@
+.card-component {
+  display: flex;
+  justify-content: center;
+  background: gray;
+  min-width: 75vw;
+
+  .card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    .card-links {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 100%;
+      padding: 1rem;
+
+      span {
+        text-align: center;
+      }
+    }
+  }
+}

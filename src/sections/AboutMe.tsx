@@ -8,7 +8,7 @@ const AboutMe = () => (
       <img
         src={headshot}
         alt="Brandon Rowe Headshot"
-        title="Brandon Rowe Headshot"
+        title="Yes, it is I: Brandon Rowe"
         className="headshot"
       />
       <div className="about-me-text">

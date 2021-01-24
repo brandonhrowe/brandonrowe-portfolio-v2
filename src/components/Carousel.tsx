@@ -39,7 +39,7 @@ const Carousel = ({ children }: CarouselProps) => {
   }, []);
 
   return (
-    <div className="carousel">
+    <div className="carousel-component">
       <div>Left Arrow</div>
       {sortedChildren}
       <div>Right Arrow</div>

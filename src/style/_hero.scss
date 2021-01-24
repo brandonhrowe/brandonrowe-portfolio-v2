@@ -1,0 +1,70 @@
+.hero-component {
+  display: grid;
+  grid-template: $grid-template-mobile / $grid-template-mobile;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+
+  @media screen and (min-width: 600px) {
+    grid-template: $grid-template-desktop / $grid-template-desktop;
+  }
+
+  & > * {
+    align-self: center;
+    justify-self: center;
+
+    &:not(.background-video) {
+      z-index: 2;
+    }
+  }
+
+  .home-content {
+    color: white;
+    text-align: center;
+
+    @media screen and (min-width: 600px) {
+      color: black;
+      text-align: left;
+    }
+  }
+
+  .about-me-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    .headshot {
+      border-radius: 200px;
+      width: 50%;
+    }
+
+    .about-me-text {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    @media screen and (min-width: 600px) {
+      flex-direction: row;
+      min-width: 50rem;
+
+      img {
+        width: 75%;
+      }
+
+      .about-me-text {
+        text-align: end;
+        margin-left: 5rem;
+      }
+    }
+  }
+
+  .background-video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

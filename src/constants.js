@@ -3,7 +3,7 @@ import {
   faMedium,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faGlobeAmericas } from "@fortawesome/free-solid-svg-icons";
 
 const constants = {
   personalLinks: [
@@ -34,31 +34,31 @@ const constants = {
       description: 'I made the AMC Sites.',
       links: [
         {
-          component: faGlobe,
+          component: faGlobeAmericas,
           link: 'https://www.amc.com/',
           key: 'amc',
           title: 'AMC'
         },
         {
-          component: faGlobe,
+          component: faGlobeAmericas,
           link: 'https://www.bbcamerica.com/',
           key: 'bbca',
           title: 'BBC America'
         },
         {
-          component: faGlobe,
+          component: faGlobeAmericas,
           link: 'https://www.ifc.com/',
           key: 'ifc',
           title: 'IFC'
         },
         {
-          component: faGlobe,
+          component: faGlobeAmericas,
           link: 'https://www.sundancetv.com/',
           key: 'sundance',
           title: 'SundanceTV'
         },
         {
-          component: faGlobe,
+          component: faGlobeAmericas,
           link: 'https://www.wetv.com/',
           key: 'wetv',
           title: 'WEtv'
