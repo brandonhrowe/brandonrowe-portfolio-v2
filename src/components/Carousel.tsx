@@ -16,7 +16,7 @@ const Carousel = ({ children }: CarouselProps) => {
       }
       return result;
     });
-  }
+  };
 
   const sortChildrenBackward = async (iterations = 1) => {
     await setSortedChildren((prevState: any) => {
@@ -27,7 +27,7 @@ const Carousel = ({ children }: CarouselProps) => {
       }
       return result;
     });
-  }
+  };
 
   const centerChildren = async () => {
     const midIdx = Math.floor(sortedChildren.length / 2);
@@ -38,7 +38,13 @@ const Carousel = ({ children }: CarouselProps) => {
     centerChildren();
   }, []);
 
-  return <div className="carousel">{sortedChildren}</div>;
+  return (
+    <div className="carousel">
+      <div>Left Arrow</div>
+      {sortedChildren}
+      <div>Right Arrow</div>
+    </div>
+  );
 };
 
 export default Carousel;

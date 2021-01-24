@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap');
 $grid-template-mobile: 90%;
 $grid-template-desktop: repeat(3, 30%);
 $icon-color-primary: lightcyan;
 $icon-color-secondary: navy;
 
 #app {
+  font-family: 'Spartan', sans-serif;
   color: black;
   background-image: url("./textured-paper.png");
   position: relative;
@@ -33,6 +35,7 @@ $icon-color-secondary: navy;
 
     .home-content {
       color: white;
+      text-align: center;
 
       a {
         color: $icon-color-primary;
@@ -40,6 +43,7 @@ $icon-color-secondary: navy;
 
       @media screen and (min-width: 600px) {
         color: black;
+        text-align: left;
 
         a {
           color: $icon-color-secondary;
