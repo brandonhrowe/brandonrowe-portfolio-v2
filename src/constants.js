@@ -31,7 +31,7 @@ const constants = {
   projects: [
     {
       title: 'AMC Networks',
-      description: 'I made the AMC Sites.',
+      description: 'AMC Sites blah blah blah.',
       links: [
         {
           component: faGlobeAmericas,

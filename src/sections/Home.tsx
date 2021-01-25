@@ -1,7 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Links from "../components/Links";
-import Copyright from "../components/Copyright";
 import Video from "../assets/Portfolio_Video.mp4";
 import constants from "../constants";
 
@@ -16,7 +15,6 @@ const Home = () => (
         links={personalLinks}
         className="icons-mobile-primary icons-desktop-secondary"
       />
-      <Copyright />
     </div>
   </Hero>
 );
