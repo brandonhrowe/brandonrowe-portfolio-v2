@@ -8,7 +8,7 @@ const { projects } = constants;
 
 const Projects = () => (
   <Hero className="projects-hero">
-    <h1 className="grid-top grid-h-center">Projects</h1>
+    <h1 className="grid-top grid-h-center hero-title">Projects</h1>
     <Carousel className="grid-bottom grid-h-center">
       <Card {...{ ...projects[0], title: "One" }} />
       <Card {...{ ...projects[0], title: "Two" }} />

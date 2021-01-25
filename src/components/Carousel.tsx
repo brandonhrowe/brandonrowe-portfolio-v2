@@ -8,7 +8,7 @@ interface CarouselProps {
 }
 
 const animationTimeDuration = 350;
-const autoAdvanceInterval = 10000;
+const autoAdvanceInterval = 5000;
 const scrollBuffer = 1000;
 
 const Carousel = ({
