@@ -1,4 +1,9 @@
 .hero-component {
+  &.flex-hero {
+    display: flex;
+    flex-direction: column;
+  }
+
   display: grid;
   grid-template: $grid-template-mobile / $grid-template-mobile;
   justify-content: center;

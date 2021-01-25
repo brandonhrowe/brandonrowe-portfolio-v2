@@ -1,20 +1,26 @@
 .card-component {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  background: gray;
-  min-width: 75vw;
+  width: 50%;
+  height: 50vh;
+  padding-top: 30vh;
+  background-size: contain;
+  background-repeat: no-repeat;
 
   .card-text {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-top: -12rem;
+    z-index: 10;
+    color: white;
 
     .card-links {
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
-      width: 100%;
       padding: 1rem;
 
       span {
