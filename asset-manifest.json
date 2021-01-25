@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/brandonrowe-portfolio-v2/static/css/main.c5c7fe90.chunk.css",
-    "main.js": "/brandonrowe-portfolio-v2/static/js/main.b3b94045.chunk.js",
-    "main.js.map": "/brandonrowe-portfolio-v2/static/js/main.b3b94045.chunk.js.map",
+    "main.js": "/brandonrowe-portfolio-v2/static/js/main.d1a30b53.chunk.js",
+    "main.js.map": "/brandonrowe-portfolio-v2/static/js/main.d1a30b53.chunk.js.map",
     "runtime-main.js": "/brandonrowe-portfolio-v2/static/js/runtime-main.93a38fd6.js",
     "runtime-main.js.map": "/brandonrowe-portfolio-v2/static/js/runtime-main.93a38fd6.js.map",
     "static/js/2.f8168952.chunk.js": "/brandonrowe-portfolio-v2/static/js/2.f8168952.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.93a38fd6.js",
     "static/js/2.f8168952.chunk.js",
     "static/css/main.c5c7fe90.chunk.css",
-    "static/js/main.b3b94045.chunk.js"
+    "static/js/main.d1a30b53.chunk.js"
   ]
 }
