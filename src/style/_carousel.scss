@@ -1,10 +1,12 @@
 .carousel-component {
   position: relative;
   display: flex;
+  justify-content: center;
   width: 100vw;
 
   .viewport-wrapper {
     overflow: hidden;
+    width: 100%;
   }
 
   .carousel-viewport {

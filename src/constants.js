@@ -31,8 +31,8 @@ const constants = {
   ],
   projects: [
     {
-      title: "AMC Networks",
-      description: "AMC Sites blah blah blah.",
+      title: "AMC | AMC Networks",
+      description: "AMC blah blah blah.",
       image: amcImage,
       links: [
         {
@@ -41,24 +41,52 @@ const constants = {
           key: "amc",
           title: "AMC",
         },
+      ],
+    },
+    {
+      title: "BBC America | AMC Networks",
+      description: "BBCA blah blah blah.",
+      image: amcImage,
+      links: [
         {
           component: faGlobeAmericas,
           link: "https://www.bbcamerica.com/",
           key: "bbca",
           title: "BBC America",
         },
+      ],
+    },
+    {
+      title: "IFC | AMC Networks",
+      description: "IFC blah blah blah.",
+      image: amcImage,
+      links: [
         {
           component: faGlobeAmericas,
           link: "https://www.ifc.com/",
           key: "ifc",
           title: "IFC",
         },
+      ],
+    },
+    {
+      title: "SundanceTV | AMC Networks",
+      description: "Sundance blah blah blah.",
+      image: amcImage,
+      links: [
         {
           component: faGlobeAmericas,
           link: "https://www.sundancetv.com/",
           key: "sundance",
           title: "SundanceTV",
         },
+      ],
+    },
+    {
+      title: "WEtv | AMC Networks",
+      description: "WEtv blah blah blah.",
+      image: amcImage,
+      links: [
         {
           component: faGlobeAmericas,
           link: "https://www.wetv.com/",
