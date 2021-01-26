@@ -1,5 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect, useRef } from "react";
+import { faArrowCircleLeft, faArrowCircleRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 interface CarouselProps {
   children?: any;
@@ -269,7 +271,7 @@ const Carousel = ({
   return (
     <div className={`carousel-component ${className}`} ref={containerRef}>
       <div onClick={triggerLeftNav} className="carousel-nav nav-left">
-        Left Arrow
+        <FontAwesomeIcon icon={faArrowCircleLeft} size="3x" />
       </div>
       <div className="viewport-wrapper">
         <div
@@ -296,7 +298,7 @@ const Carousel = ({
         </div>
       </div>
       <div onClick={triggerRightNav} className="carousel-nav nav-right">
-        Right Arrow
+        <FontAwesomeIcon icon={faArrowCircleRight} size="3x" />
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 .carousel-component {
   position: relative;
   display: flex;
+  width: 100vw;
 
   .viewport-wrapper {
     overflow: hidden;
@@ -44,16 +45,25 @@
     top: 0;
     cursor: pointer;
     outline: none;
-    z-index: 4;
+    z-index: 15;
     align-items: center;
     justify-content: center;
+    margin-top: 20%;
+    border-radius: 200px;
+    background: white;
+
+    &:hover {
+      color: white;
+      cursor: pointer;
+      background: black;
+    }
 
     &.nav-left {
-      left: 20vw;
+      left: 1rem;
     }
 
     &.nav-right {
-      right: 20vw;
+      right: 1rem;
     }
   }
 }

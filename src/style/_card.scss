@@ -2,18 +2,18 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 55%;
-  height: 50vh;
-  padding-top: 30vh;
   background-size: contain;
   background-repeat: no-repeat;
+  width: 80%;
+  height: 50vh;
+  padding-top: 30vh;
 
   .card-text {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-top: -12rem;
+    margin-top: -20rem;
     z-index: 10;
     color: white;
 
