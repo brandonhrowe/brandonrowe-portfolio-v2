@@ -20,8 +20,8 @@ const Card = ({
 }: CardProps) => (
   <div
     className={`card-component ${className}`}
-    style={{ backgroundImage: image ? `url(${image})` : "" }}
   >
+    <img src={image} alt={title} title={title} className="card-image" />
     <div className="card-text">
       <h1>{title}</h1>
       <p>{description}</p>

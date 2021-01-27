@@ -4,19 +4,26 @@
   justify-content: center;
   background-size: contain;
   background-repeat: no-repeat;
-  width: 80%;
-  height: 50vh;
-  padding-top: 30vh;
+  height: 80vh;
+
+  img {
+    position: absolute;
+    object-fit: contain;
+  }
+
+  &,
+  img {
+    width: 80%;
+  }
 
   .card-text {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-top: -20rem;
     z-index: 10;
     color: white;
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(0, 0, 0, 0.3);
 
     .card-links {
       display: flex;
