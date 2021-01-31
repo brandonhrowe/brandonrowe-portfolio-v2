@@ -1,6 +1,9 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect, useRef } from "react";
-import { faArrowCircleLeft, faArrowCircleRight } from "@fortawesome/free-solid-svg-icons";
+import {
+  faArrowCircleLeft,
+  faArrowCircleRight,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 interface CarouselProps {
@@ -10,7 +13,7 @@ interface CarouselProps {
 }
 
 const animationTimeDuration = 350;
-const autoAdvanceInterval = 5000;
+const autoAdvanceInterval = 7500;
 const scrollBuffer = 1000;
 
 const Carousel = ({
@@ -29,12 +32,8 @@ const Carousel = ({
   const containerRef = useRef(null);
 
   useEffect(() => {
-    const centerCards = async () => {
-      await sortCardsForward(midIdx);
-    };
-
     handleFirstVisibleSlide();
-    centerCards().then(() => {
+    sortCardsForward(midIdx).then(() => {
       setInterval(() => {
         triggerRightNav();
       }, autoAdvanceInterval);
@@ -67,31 +66,31 @@ const Carousel = ({
   };
 
   const sortCardsForward = async (iterations = 1) => {
-    for (let i = 0; i < iterations; i++) {
-      await setCards((prevCards = []) => {
-        let result: any = [];
-        if (prevCards.length) {
-          const lastCard = prevCards[prevCards.length - 1];
+    await setCards((prevCards = []) => {
+      let result: any = [...prevCards];
+      for (let i = 0; i < iterations; i++) {
+        if (result.length) {
+          const lastCard = result[result.length - 1];
           result = []
             .concat(lastCard)
-            .concat(prevCards.slice(0, prevCards.length - 1));
+            .concat(result.slice(0, result.length - 1));
         }
-        return result;
-      });
-    }
+      }
+      return result;
+    });
   };
 
   const sortCardsBack = async (iterations = 1) => {
-    for (let i = 0; i < iterations; i++) {
-      await setCards((prevCards = []) => {
-        let result: any = [];
-        if (prevCards.length) {
-          const firstCard = prevCards[0];
-          result = [].concat(prevCards.slice(1)).concat(firstCard);
+    await setCards((prevCards = []) => {
+      let result: any = [...prevCards];
+      for (let i = 0; i < iterations; i++) {
+        if (result.length) {
+          const firstCard = result[0];
+          result = [].concat(result.slice(1)).concat(firstCard);
         }
-        return result;
-      });
-    }
+      }
+      return result;
+    });
   };
 
   const scrollIntoViewIfNeeded = (slide: any) => {
@@ -194,7 +193,7 @@ const Carousel = ({
             firstInvisibleElement.offsetLeft - paddingLeft,
             viewport.scrollLeft - viewport.clientWidth
           ) +
-          slide.clientWidth * midIdx;
+          slide.clientWidth * (midIdx / 2);
       }
 
       const tempNewPos = Math.max(newPos - slide.clientWidth * 2, 0);
@@ -288,7 +287,7 @@ const Carousel = ({
         >
           {cards.map((item: any, idx: number) => (
             <div
-              key={`slide_${item.key || idx}`}
+              key={`slide_${item.title || idx}`}
               className="slide"
               draggable={false}
             >

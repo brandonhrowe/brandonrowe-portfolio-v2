@@ -11,7 +11,7 @@ const Projects = () => (
     <h1 className="grid-top grid-h-center hero-title">Projects</h1>
     <Carousel className="grid-bottom grid-h-center">
       {projects.map((proj) => (
-        <Card {...proj} />
+        <Card {...proj} key={proj.title} />
       ))}
     </Carousel>
   </Hero>
