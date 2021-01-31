@@ -1,26 +1,30 @@
 {
   "files": {
     "main.css": "/brandonrowe-portfolio-v2/static/css/main.ddac4480.chunk.css",
-    "main.js": "/brandonrowe-portfolio-v2/static/js/main.039f90cd.chunk.js",
-    "main.js.map": "/brandonrowe-portfolio-v2/static/js/main.039f90cd.chunk.js.map",
-    "runtime-main.js": "/brandonrowe-portfolio-v2/static/js/runtime-main.9f1a3f21.js",
-    "runtime-main.js.map": "/brandonrowe-portfolio-v2/static/js/runtime-main.9f1a3f21.js.map",
-    "static/js/2.05b8b6b9.chunk.js": "/brandonrowe-portfolio-v2/static/js/2.05b8b6b9.chunk.js",
-    "static/js/2.05b8b6b9.chunk.js.map": "/brandonrowe-portfolio-v2/static/js/2.05b8b6b9.chunk.js.map",
-    "static/js/3.2cb7f2dc.chunk.js": "/brandonrowe-portfolio-v2/static/js/3.2cb7f2dc.chunk.js",
-    "static/js/3.2cb7f2dc.chunk.js.map": "/brandonrowe-portfolio-v2/static/js/3.2cb7f2dc.chunk.js.map",
+    "main.js": "/brandonrowe-portfolio-v2/static/js/main.f7e4f0a9.chunk.js",
+    "main.js.map": "/brandonrowe-portfolio-v2/static/js/main.f7e4f0a9.chunk.js.map",
+    "runtime-main.js": "/brandonrowe-portfolio-v2/static/js/runtime-main.8dbc66f3.js",
+    "runtime-main.js.map": "/brandonrowe-portfolio-v2/static/js/runtime-main.8dbc66f3.js.map",
+    "static/js/2.83b5ee09.chunk.js": "/brandonrowe-portfolio-v2/static/js/2.83b5ee09.chunk.js",
+    "static/js/2.83b5ee09.chunk.js.map": "/brandonrowe-portfolio-v2/static/js/2.83b5ee09.chunk.js.map",
+    "static/js/3.8f9eef38.chunk.js": "/brandonrowe-portfolio-v2/static/js/3.8f9eef38.chunk.js",
+    "static/js/3.8f9eef38.chunk.js.map": "/brandonrowe-portfolio-v2/static/js/3.8f9eef38.chunk.js.map",
     "index.html": "/brandonrowe-portfolio-v2/index.html",
     "static/css/main.ddac4480.chunk.css.map": "/brandonrowe-portfolio-v2/static/css/main.ddac4480.chunk.css.map",
-    "static/js/2.05b8b6b9.chunk.js.LICENSE.txt": "/brandonrowe-portfolio-v2/static/js/2.05b8b6b9.chunk.js.LICENSE.txt",
+    "static/js/2.83b5ee09.chunk.js.LICENSE.txt": "/brandonrowe-portfolio-v2/static/js/2.83b5ee09.chunk.js.LICENSE.txt",
     "static/media/AMC_Image.a5527002.png": "/brandonrowe-portfolio-v2/static/media/AMC_Image.a5527002.png",
+    "static/media/BigSplice_Full.083bfd0e.jpg": "/brandonrowe-portfolio-v2/static/media/BigSplice_Full.083bfd0e.jpg",
+    "static/media/Bloom_Full.2e9ff174.jpg": "/brandonrowe-portfolio-v2/static/media/Bloom_Full.2e9ff174.jpg",
+    "static/media/Portfolio_Full.2ac65ed8.png": "/brandonrowe-portfolio-v2/static/media/Portfolio_Full.2ac65ed8.png",
     "static/media/Portfolio_Video.c2f4fb6e.mp4": "/brandonrowe-portfolio-v2/static/media/Portfolio_Video.c2f4fb6e.mp4",
     "static/media/Rowe_Headshot_300x285.04d4f569.jpg": "/brandonrowe-portfolio-v2/static/media/Rowe_Headshot_300x285.04d4f569.jpg",
+    "static/media/Simmer_Full.79c7075c.jpg": "/brandonrowe-portfolio-v2/static/media/Simmer_Full.79c7075c.jpg",
     "static/media/App.scss": "/brandonrowe-portfolio-v2/static/media/textured-paper.2e582823.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9f1a3f21.js",
-    "static/js/2.05b8b6b9.chunk.js",
+    "static/js/runtime-main.8dbc66f3.js",
+    "static/js/2.83b5ee09.chunk.js",
     "static/css/main.ddac4480.chunk.css",
-    "static/js/main.039f90cd.chunk.js"
+    "static/js/main.f7e4f0a9.chunk.js"
   ]
 }
