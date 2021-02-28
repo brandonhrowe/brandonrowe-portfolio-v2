@@ -10,8 +10,22 @@ import bloomImage from "./assets/Bloom_Full.jpg";
 import simmerImage from "./assets/Simmer_Full.jpg";
 import bigSpliceImage from "./assets/BigSplice_Full.jpg";
 import portfolioImage from "./assets/Portfolio_Full.png";
+import VideoHQ from "./assets/Portfolio_Video.mp4";
+import VideoLQ from "./assets/Portfolio_Video_1mbps.webm";
+import VideoPlaceholder from "./assets/Portfolio_Video Placeholder.jpg";
 
 const constants = {
+  homeBackgroundVideo: {
+    lowQuality: {
+      src: VideoLQ,
+      type: "video/webm"
+    },
+    highQuality: {
+      src: VideoHQ,
+      type: "video/mp4"
+    },
+    placeholder: VideoPlaceholder
+  },
   personalLinks: [
     {
       component: faLinkedin,

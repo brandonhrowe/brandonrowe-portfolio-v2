@@ -1,22 +1,32 @@
 import React from "react";
+import Video from "./Video";
+
+type VideoSrcObj = {
+  lowQuality?: object;
+  highQuality?: object;
+  placeholder?: string;
+};
 
 interface HeroProps {
   className?: string;
-  backgroundVideo?: string;
+  backgroundVideo?: VideoSrcObj;
   children?: React.ReactNode;
 }
 
-const Hero = ({ className = "", backgroundVideo, children }: HeroProps) => (
-  <section
-    className={`hero-component ${className}`.trim()}
-  >
+const Hero = ({
+  className = "",
+  backgroundVideo,
+  children,
+}: HeroProps) => (
+  <section className={`hero-component ${className}`.trim()}>
     {backgroundVideo && (
-      <video
+      <Video
         className="background-video"
-        src={backgroundVideo}
+        sources={backgroundVideo}
         autoPlay
-        loop
         muted
+        loop
+        preload="auto"
       />
     )}
     {children}
