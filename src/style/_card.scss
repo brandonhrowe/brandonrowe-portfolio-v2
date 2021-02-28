@@ -25,6 +25,11 @@
     color: white;
     background-color: rgba(0, 0, 0, 0.3);
 
+    p {
+      text-align: center;
+      padding: 0 5rem;
+    }
+
     .card-links {
       display: flex;
       flex-direction: row;

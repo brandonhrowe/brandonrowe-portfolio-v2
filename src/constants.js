@@ -51,7 +51,7 @@ const constants = {
   projects: [
     {
       title: "AMC | AMC Networks",
-      description: "AMC blah blah blah.",
+      description: "Watch the latest full episodes and video extras for AMC shows: The Walking Dead, Better Call Saul, Killing Eve, Fear the Walking Dead, Mad Men and more.",
       image: amcImage,
       links: [
         {
@@ -64,7 +64,7 @@ const constants = {
     },
     {
       title: "BBC America | AMC Networks",
-      description: "BBCA blah blah blah.",
+      description: "Watch the latest full episodes and video extras for BBC America shows: Doctor Who, Killing Eve, Orphan Black, Luther, Planet Earth and more.",
       image: amcImage,
       links: [
         {
@@ -77,7 +77,7 @@ const constants = {
     },
     {
       title: "IFC | AMC Networks",
-      description: "IFC blah blah blah.",
+      description: "Watch the latest full episodes and video extras for IFC shows: Sherman's Showcase, Brockmire, Documentary Now!, Portlandia, Stan Against Evil and more.",
       image: amcImage,
       links: [
         {
@@ -90,7 +90,7 @@ const constants = {
     },
     {
       title: "SundanceTV | AMC Networks",
-      description: "Sundance blah blah blah.",
+      description: "Watch the latest full episodes and video extras for SundanceTV shows: Liar, The Split, Back, The A Word, Close Up With Hollywood Reporter and more.",
       image: amcImage,
       links: [
         {
@@ -103,7 +103,7 @@ const constants = {
     },
     {
       title: "WEtv | AMC Networks",
-      description: "WEtv blah blah blah.",
+      description: "Watch the latest full episodes and video extras for WE tv shows: Marriage Boot Camp, Growing Up Hip Hop, Braxton Family Values, Love After Lockup, Mama June: From Not to Hot and more.",
       image: amcImage,
       links: [
         {
