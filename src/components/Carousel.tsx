@@ -5,6 +5,7 @@ import {
   faArrowCircleRight,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import CarouselTabs from "./CarouselTabs";
 
 interface CarouselProps {
   children?: any;
@@ -241,9 +242,15 @@ const Carousel = ({
       change = to - start,
       increment = 1000 / 60;
 
-    setCurrIdx((prevIdx) =>
-      Math.min(Math.max(prevIdx + iconChange, 0), children.length - 1)
-    );
+    setCurrIdx((prevIdx) => {
+      let result = prevIdx + iconChange;
+      if (result < 0) {
+        result = children.length - 1;
+      } else if (result >= children.length) {
+        result = 0;
+      }
+      return result;
+    });
 
     const animateScroll = (elapsedTime: number) => {
       elapsedTime += increment;
@@ -303,6 +310,7 @@ const Carousel = ({
       <div onClick={triggerRightNav} className="carousel-nav nav-right">
         <FontAwesomeIcon icon={faArrowCircleRight} size="3x" />
       </div>
+      <CarouselTabs children={children} activeIndex={currIdx} />
     </div>
   );
 };

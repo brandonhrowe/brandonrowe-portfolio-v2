@@ -4,6 +4,32 @@
   justify-content: center;
   width: 100vw;
 
+  .carousel-tabs {
+    position: absolute;
+    margin-top: 27rem;
+    background: rgba(255, 255, 255, .6);
+    padding: .25rem;
+    border-radius: 10px;
+
+    @media screen and (min-width: 960px) {
+      margin-top: 30rem;
+    }
+
+    @media screen and (min-width: 1225px) {
+      margin-top: 34rem;
+    }
+
+    .carousel-tab {
+      padding: 0 .25rem;
+
+      &.active {
+        circle {
+          fill: #ffef40;
+        }
+      }
+    }
+  }
+
   .viewport-wrapper {
     overflow: hidden;
     width: 100%;
