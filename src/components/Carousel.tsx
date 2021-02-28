@@ -10,6 +10,7 @@ interface CarouselProps {
   children?: any;
   startFrom?: number;
   className?: string;
+  autoScroll?: boolean;
 }
 
 const animationTimeDuration = 350;
@@ -20,6 +21,7 @@ const Carousel = ({
   children = [],
   startFrom = 0,
   className = "",
+  autoScroll = false,
 }: CarouselProps) => {
   const [cards, setCards] = useState(children);
   const [currIdx, setCurrIdx] = useState(startFrom);
@@ -34,9 +36,11 @@ const Carousel = ({
   useEffect(() => {
     handleFirstVisibleSlide();
     sortCardsForward(midIdx).then(() => {
-      setInterval(() => {
-        triggerRightNav();
-      }, autoAdvanceInterval);
+      if (autoScroll) {
+        setInterval(() => {
+          triggerRightNav();
+        }, autoAdvanceInterval);
+      }
       setScrollAnimation(true);
     });
   }, []);
