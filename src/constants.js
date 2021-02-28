@@ -6,6 +6,10 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faGlobeAmericas } from "@fortawesome/free-solid-svg-icons";
 import amcImage from "./assets/AMC_Image.png";
+import bbcaImage from "./assets/BBCA_Image.png";
+import ifcImage from "./assets/IFC_Image.png";
+import sundanceImage from "./assets/Sundance_Image.png";
+import wetvImage from "./assets/WeTv_Image.png";
 import bloomImage from "./assets/Bloom_Full.jpg";
 import simmerImage from "./assets/Simmer_Full.jpg";
 import bigSpliceImage from "./assets/BigSplice_Full.jpg";
@@ -65,7 +69,7 @@ const constants = {
     {
       title: "BBC America | AMC Networks",
       description: "Watch the latest full episodes and video extras for BBC America shows: Doctor Who, Killing Eve, Orphan Black, Luther, Planet Earth and more.",
-      image: amcImage,
+      image: bbcaImage,
       links: [
         {
           component: faGlobeAmericas,
@@ -78,7 +82,7 @@ const constants = {
     {
       title: "IFC | AMC Networks",
       description: "Watch the latest full episodes and video extras for IFC shows: Sherman's Showcase, Brockmire, Documentary Now!, Portlandia, Stan Against Evil and more.",
-      image: amcImage,
+      image: ifcImage,
       links: [
         {
           component: faGlobeAmericas,
@@ -91,7 +95,7 @@ const constants = {
     {
       title: "SundanceTV | AMC Networks",
       description: "Watch the latest full episodes and video extras for SundanceTV shows: Liar, The Split, Back, The A Word, Close Up With Hollywood Reporter and more.",
-      image: amcImage,
+      image: sundanceImage,
       links: [
         {
           component: faGlobeAmericas,
@@ -104,7 +108,7 @@ const constants = {
     {
       title: "WEtv | AMC Networks",
       description: "Watch the latest full episodes and video extras for WE tv shows: Marriage Boot Camp, Growing Up Hip Hop, Braxton Family Values, Love After Lockup, Mama June: From Not to Hot and more.",
-      image: amcImage,
+      image: wetvImage,
       links: [
         {
           component: faGlobeAmericas,
