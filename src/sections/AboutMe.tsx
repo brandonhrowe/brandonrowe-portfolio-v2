@@ -11,6 +11,7 @@ const AboutMe = () => (
           I am a Fullstack Software Engineer, located in Brooklyn, NY. I
           specialize in JavaScript and the NERD stack (Node, Express, React,
           Postgres Databases), with additional experience in Python and Django.
+          I have been employed as a Frontend Engineer at AMC Networks since 2019.
           <br />
           <br />I have several years of experience in the world of
           Film/Television Post-Production, working with clients such as HBO,

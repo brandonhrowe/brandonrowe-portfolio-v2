@@ -195,7 +195,7 @@ const constants = {
     },
     {
       title: "Brandon Rowe Portfolio Site",
-      description: "This very site you look upon right now.",
+      description: "This very site upon which you look right now.",
       image: portfolioImage,
       links: [
         {
