@@ -18,16 +18,21 @@ const Card = ({
   children,
   className = "",
 }: CardProps) => (
-  <div
-    className={`card-component ${className}`}
-  >
-    <img src={image} alt={title} title={title} className="card-image" />
-    <div className="card-text">
-      <h1>{title}</h1>
-      <p>{description}</p>
-      <Links links={links} className="card-links" />
+  <div className={`card-component ${className}`}>
+    <div className="card-container">
+      <div className="card-image">
+        <div className="card-image-filter" />
+        <img src={image} alt={title} title={title} className="card-image" />
+      </div>
+      <div className="card-text left">
+        <h1>{title}</h1>
+        <Links links={links} className="card-links icons-mobile-secondary icons-desktop-secondary" />
+      </div>
+      <div className="card-text right">
+        <p>{description}</p>
+      </div>
+      {children}
     </div>
-    {children}
   </div>
 );
 

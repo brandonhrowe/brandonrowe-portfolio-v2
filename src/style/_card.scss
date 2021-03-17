@@ -4,42 +4,102 @@
   justify-content: center;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 85vh;
+  width: 80%;
 
-  & > img {
+  .card-container {
     position: absolute;
+    margin: 0 0 5rem;
+    top: 2rem;
     object-fit: contain;
     border-radius: 20px;
     border: white 1px solid;
-  }
-
-  &,
-  img {
     width: 80%;
-  }
+    height: 85%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:rgba(0, 0, 0, 0.7);
+    box-shadow: 2rem 2rem 2rem black;
 
-  .card-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    z-index: 10;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.7);
+    .card-image {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
 
-    h1, p {
-      text-align: center;
-      padding: 0 5rem;
+      .card-image-filter {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        z-index: 10;
+        background:linear-gradient(black, #0000, black);
+
+        @media screen and (min-width: 600px) {
+          background:linear-gradient(#0000, #0000, black);
+        }
+      }
+
+      img {
+        object-fit: cover;
+      }
     }
 
-    .card-links {
+    .card-text {
+      position: absolute;
+      top: 0;
       display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      padding: 1rem;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      z-index: 10;
+      color: black;
+      background-color: white;
 
-      span {
+      @media screen and (min-width: 600px) {
+        width: 33%;
+        bottom: 0;
+        top: auto;
+      }
+
+      &.left {
+        border-radius: 20px 20px 0 0;
+
+        @media screen and (min-width: 600px) {
+          border-radius: 0 0 0 20px;
+        }
+
+        h1 {
+          margin-bottom: 0;
+        }
+      }
+
+      &.right {
+        right: 0;
+        font-size: .75rem;
+        line-height: 1.25rem;
+        display: none;
+        border-radius: 0 0 20px 0;
+
+        @media screen and (min-width: 600px) {
+          display: block;
+        }
+      }
+
+      h1, p {
         text-align: center;
+        padding: 0 1rem;
+      }
+
+      .card-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 1rem;
+
+        span {
+          text-align: center;
+        }
       }
     }
   }

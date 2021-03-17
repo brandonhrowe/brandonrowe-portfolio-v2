@@ -6,18 +6,11 @@
 
   .carousel-tabs {
     position: absolute;
-    margin-top: 27rem;
+    bottom: 5rem;
     background:rgba(0, 0, 0, 0.7);
     padding: .25rem;
     border-radius: 10px;
-
-    @media screen and (min-width: 960px) {
-      margin-top: 30rem;
-    }
-
-    @media screen and (min-width: 1225px) {
-      margin-top: 34rem;
-    }
+    z-index: 10;
 
     .carousel-tab {
       padding: 0 .25rem;
@@ -66,20 +59,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
     scroll-snap-align: start;
     width: 100%;
   }
 
   .carousel-nav {
     position: absolute;
-    top: 0;
+    top: 45%;
     cursor: pointer;
     outline: none;
     z-index: 15;
     align-items: center;
     justify-content: center;
-    margin-top: 25%;
     border-radius: 200px;
     background: white;
     color: black;
