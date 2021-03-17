@@ -35,10 +35,10 @@ $card-border-radius: 20px;
         height: 100%;
         border-radius: $card-border-radius;
         z-index: 10;
-        background:linear-gradient(black, #0000, black);
+        background:linear-gradient(black, #0000, #0000, #000000b3);
 
         @media screen and (min-width: 600px) {
-          background:linear-gradient(#0000, #0000, black);
+          background:linear-gradient(#0000003f, #0000, #0000, black);
         }
       }
 
