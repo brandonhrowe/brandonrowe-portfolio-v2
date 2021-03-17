@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Home from "./sections/Home";
 import AboutMe from "./sections/AboutMe";
 import Projects from "./sections/Projects";
+import Miscellaneous from "./sections/Miscellaneous";
 import Footer from "./sections/Footer";
 import Hero from "./components/Hero";
 import constants from "./constants";
@@ -46,6 +47,7 @@ const App = () => {
         <Home />
         <AboutMe />
         <Projects />
+        <Miscellaneous />
         <Footer />
       </Hero>
     </div>
