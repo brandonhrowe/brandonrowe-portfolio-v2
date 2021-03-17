@@ -7,7 +7,7 @@ const { personalLinks } = constants;
 
 const Footer = () => (
   <footer>
-    <Links links={personalLinks} size="2x" />
+    <Links links={personalLinks} size="2x" className="icons-mobile-secondary icons-desktop-secondary" />
     <Copyright />
   </footer>
 );

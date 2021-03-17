@@ -7,7 +7,7 @@
   .carousel-tabs {
     position: absolute;
     margin-top: 27rem;
-    background: rgba(255, 255, 255, .6);
+    background:rgba(0, 0, 0, 0.7);
     padding: .25rem;
     border-radius: 10px;
 
@@ -21,6 +21,9 @@
 
     .carousel-tab {
       padding: 0 .25rem;
+      circle {
+        fill: white;
+      }
 
       &.active {
         circle {
