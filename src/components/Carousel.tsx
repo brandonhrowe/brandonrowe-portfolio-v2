@@ -281,7 +281,9 @@ const Carousel = ({
   return (
     <div className={`carousel-component ${className}`} ref={containerRef}>
       <div onClick={triggerLeftNav} className="carousel-nav nav-left">
+        <div className="nav-icon icon-left">
         <FontAwesomeIcon icon={faArrowCircleLeft} size="3x" />
+        </div>
       </div>
       <div className="viewport-wrapper">
         <div
@@ -308,7 +310,9 @@ const Carousel = ({
         </div>
       </div>
       <div onClick={triggerRightNav} className="carousel-nav nav-right">
-        <FontAwesomeIcon icon={faArrowCircleRight} size="3x" />
+        <div className="nav-icon icon-right">
+          <FontAwesomeIcon icon={faArrowCircleRight} size="3x" />
+        </div>
       </div>
       <CarouselTabs children={children} activeIndex={currIdx} />
     </div>

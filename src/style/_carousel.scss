@@ -38,6 +38,7 @@
     overflow-y: hidden;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
+    touch-action: none;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -65,21 +66,48 @@
 
   .carousel-nav {
     position: absolute;
-    top: 45%;
-    cursor: pointer;
+    bottom: 10%;
+    height: 65%;
+    width: 45%;
     outline: none;
     z-index: 15;
-    align-items: center;
-    justify-content: center;
-    border-radius: 200px;
-    background: white;
-    color: black;
 
-    &:hover {
-      color: white;
-      cursor: pointer;
-      background: black;
+    @media screen and (min-width: 600px) {
+      top: 45%;
+      height: auto;
+      width: auto;
+      bottom: auto;
     }
+
+    .nav-icon {
+      cursor: pointer;
+      align-items: center;
+      justify-content: center;
+      border-radius: 200px;
+      background: white;
+      color: black;
+      position: absolute;
+      top: 45%;
+
+      &.icon-right {
+        right: 0;
+      }
+
+      &.icon-left {
+        left: 0;
+      }
+
+      @media screen and (min-width: 600px) {
+        position: relative;
+      }
+
+      &:hover {
+        color: white;
+        cursor: pointer;
+        background: black;
+      }
+    }
+
 
     &.nav-left {
       left: 1rem;
