@@ -5,12 +5,6 @@ import headshot from "../assets/Rowe_Headshot_300x285.jpg";
 const AboutMe = () => (
   <Hero className="about-me">
     <div className="grid-h-center grid-v-center about-me-content">
-      <img
-        src={headshot}
-        alt="Brandon Rowe Headshot"
-        title="Yes, it is I: Brandon Rowe"
-        className="headshot"
-      />
       <div className="about-me-text">
         <h1>About Me</h1>
         <p>
@@ -25,6 +19,12 @@ const AboutMe = () => (
           processing.
         </p>
       </div>
+      <img
+        src={headshot}
+        alt="Brandon Rowe Headshot"
+        title="Yes, it is I: Brandon Rowe"
+        className="headshot"
+      />
     </div>
   </Hero>
 );

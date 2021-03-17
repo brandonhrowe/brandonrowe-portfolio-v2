@@ -11,14 +11,16 @@ interface HeroProps {
   className?: string;
   backgroundVideo?: VideoSrcObj;
   children?: React.ReactNode;
+  style?: Object;
 }
 
 const Hero = ({
   className = "",
   backgroundVideo,
   children,
+  style
 }: HeroProps) => (
-  <section className={`hero-component ${className}`.trim()}>
+  <section className={`hero-component ${className}`.trim()} style={style}>
     {backgroundVideo && (
       <Video
         className="background-video"

@@ -1,86 +1,89 @@
 .hero-component {
-  display: grid;
-  grid-template: $grid-template-mobile / $grid-template-mobile;
-  justify-content: center;
-  align-content: center;
-  position: relative;
-  width: 100%;
-  height: 100vh;
-
-  @media screen and (min-width: 600px) {
-    grid-template: $grid-template-desktop / $grid-template-desktop;
-  }
-
-  & > * {
-    align-self: center;
-    justify-self: center;
-
-    &:not(.background-video) {
-      z-index: 2;
-    }
-  }
-
-  & > .carousel-component.grid-bottom {
-    @media screen and (min-width: 600px) {
-      margin-top: -12rem;
-    }
-  }
-
-  .home-content {
-    color: white;
-    text-align: center;
+  &:not(.app-hero) {
+    display: grid;
+    grid-template: $grid-template-mobile / $grid-template-mobile;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
 
     @media screen and (min-width: 600px) {
-      color: black;
-      text-align: left;
-    }
-  }
-
-  .about-me-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-
-    .headshot {
-      border-radius: 200px;
-      width: 50%;
+      grid-template: $grid-template-desktop / $grid-template-desktop;
     }
 
-    .about-me-text {
-      padding: 2rem;
+    & > * {
+      align-self: center;
+      justify-self: center;
+
+      &:not(.background-video) {
+        z-index: 2;
+      }
+    }
+
+    & > .carousel-component.grid-bottom {
+      @media screen and (min-width: 600px) {
+        margin-top: -12rem;
+      }
+    }
+
+    .home-content {
+      color: white;
       text-align: center;
+
+      @media screen and (min-width: 600px) {
+        color: black;
+        text-align: left;
+      }
     }
 
-    @media screen and (min-width: 600px) {
-      flex-direction: row;
-      min-width: 50rem;
+    .about-me-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
 
-      img {
-        width: 75%;
+      .headshot {
+        border-radius: 200px;
+        width: 50%;
       }
 
       .about-me-text {
-        text-align: end;
-        margin-left: 5rem;
+        padding: 2rem;
+        text-align: center;
+      }
+
+      @media screen and (min-width: 600px) {
+        flex-direction: row;
+        min-width: 50rem;
+
+        img {
+          width: 75%;
+        }
+
+        .about-me-text {
+          text-align: end;
+          margin-right: 5rem;
+        }
       }
     }
-  }
 
-  &.projects-hero {
-    .hero-title {
-      align-self: auto;
-    }
+    &.projects-hero {
+      .hero-title {
+        align-self: auto;
+      }
 
-    .carousel-component {
-      align-self: end;
+      .carousel-component {
+        align-self: end;
+      }
     }
   }
 
   .background-video {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
     object-fit: cover;
+    z-index: -1;
   }
 }

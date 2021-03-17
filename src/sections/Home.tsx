@@ -3,10 +3,10 @@ import Hero from "../components/Hero";
 import Links from "../components/Links";
 import constants from "../constants";
 
-const { personalLinks, homeBackgroundVideo } = constants;
+const { personalLinks } = constants;
 
 const Home = () => (
-  <Hero backgroundVideo={homeBackgroundVideo} className="home">
+  <Hero className="home">
     <div className="home-content grid-left grid-v-center">
       <h1>Brandon Rowe</h1>
       <h3>Fullstack Software Engineer</h3>

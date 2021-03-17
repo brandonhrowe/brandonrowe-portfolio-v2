@@ -19,7 +19,7 @@ import VideoLQ from "./assets/Portfolio_Video_1mbps.webm";
 import VideoPlaceholder from "./assets/Portfolio_Video Placeholder.jpg";
 
 const constants = {
-  homeBackgroundVideo: {
+  backgroundVideo: {
     lowQuality: {
       src: VideoLQ,
       type: "video/webm"
