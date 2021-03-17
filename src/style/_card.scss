@@ -1,3 +1,5 @@
+$card-border-radius: 20px;
+
 .card-component {
   display: flex;
   flex-direction: column;
@@ -12,7 +14,7 @@
     margin: 0 0 5rem;
     top: 2rem;
     object-fit: contain;
-    border-radius: 20px;
+    border-radius: $card-border-radius;
     border: white 1px solid;
     width: 80%;
     height: 85%;
@@ -25,13 +27,13 @@
       position: absolute;
       width: 100%;
       height: 100%;
-      border-radius: 20px;
+      border-radius: $card-border-radius;
 
       .card-image-filter {
         position: absolute;
         width: 100%;
         height: 100%;
-        border-radius: 20px;
+        border-radius: $card-border-radius;
         z-index: 10;
         background:linear-gradient(black, #0000, black);
 
@@ -66,10 +68,10 @@
       }
 
       &.left {
-        border-radius: 20px 20px 0 0;
+        border-radius: $card-border-radius $card-border-radius 0 0;
 
         @media screen and (min-width: 600px) {
-          border-radius: 0 0 0 20px;
+          border-radius: 0 0 0 $card-border-radius;
         }
 
         h1 {
@@ -82,7 +84,7 @@
         font-size: .75rem;
         line-height: 1.25rem;
         display: none;
-        border-radius: 0 0 20px 0;
+        border-radius: 0 0 $card-border-radius 0;
 
         @media screen and (min-width: 600px) {
           display: flex;
