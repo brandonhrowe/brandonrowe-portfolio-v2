@@ -13,10 +13,9 @@ const AboutMe = () => (
           Postgres Databases), with additional experience in Python and Django.
           I have been employed as a Frontend Engineer at AMC Networks since 2019.
           <br />
-          <br />I have several years of experience in the world of
-          Film/Television Post-Production, working with clients such as HBO,
-          Netflix, and IFC. In addition to programming, my interests include
-          film, reading, and photography. I also teach workshops in analog film
+          <br />In addition to programming, I have several years of experience
+          working in the world of film. My interests include
+          film, reading, and photography; I also teach workshops in analog film
           processing.
         </p>
       </div>

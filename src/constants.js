@@ -5,7 +5,7 @@ import {
   faYoutube
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faGlobeAmericas } from "@fortawesome/free-solid-svg-icons";
-import amcImage from "./assets/AMC_Image.png";
+import amcImage from "./assets/AMC_Image_Tryptic.png";
 import bbcaImage from "./assets/BBCA_Image.png";
 import ifcImage from "./assets/IFC_Image.png";
 import sundanceImage from "./assets/Sundance_Image.png";
