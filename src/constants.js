@@ -2,7 +2,7 @@ import {
   faLinkedin,
   faMedium,
   faGithub,
-  faYoutube
+  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faGlobeAmericas } from "@fortawesome/free-solid-svg-icons";
 import amcImage from "./assets/AMC_Image_Tryptic.png";
@@ -22,13 +22,13 @@ const constants = {
   backgroundVideo: {
     lowQuality: {
       src: VideoLQ,
-      type: "video/webm"
+      type: "video/webm",
     },
     highQuality: {
       src: VideoHQ,
-      type: "video/mp4"
+      type: "video/mp4",
     },
-    placeholder: VideoPlaceholder
+    placeholder: VideoPlaceholder,
   },
   personalLinks: [
     {
@@ -55,7 +55,8 @@ const constants = {
   projects: [
     {
       title: "AMC | AMC Networks",
-      description: "Watch the latest full episodes and video extras for AMC shows: The Walking Dead, Better Call Saul, Killing Eve, Fear the Walking Dead, Mad Men and more.",
+      description:
+        "Watch the latest full episodes and video extras for AMC shows: The Walking Dead, Better Call Saul, Killing Eve, Fear the Walking Dead, Mad Men and more.",
       image: amcImage,
       links: [
         {
@@ -68,7 +69,8 @@ const constants = {
     },
     {
       title: "BBC America | AMC Networks",
-      description: "Watch the latest full episodes and video extras for BBC America shows: Doctor Who, Killing Eve, Orphan Black, Luther, Planet Earth and more.",
+      description:
+        "Watch the latest full episodes and video extras for BBC America shows: Doctor Who, Killing Eve, Orphan Black, Luther, Planet Earth and more.",
       image: bbcaImage,
       links: [
         {
@@ -81,7 +83,8 @@ const constants = {
     },
     {
       title: "IFC | AMC Networks",
-      description: "Watch the latest full episodes and video extras for IFC shows: Sherman's Showcase, Brockmire, Documentary Now!, Portlandia, Stan Against Evil and more.",
+      description:
+        "Watch the latest full episodes and video extras for IFC shows: Sherman's Showcase, Brockmire, Documentary Now!, Portlandia, Stan Against Evil and more.",
       image: ifcImage,
       links: [
         {
@@ -94,7 +97,8 @@ const constants = {
     },
     {
       title: "SundanceTV | AMC Networks",
-      description: "Watch the latest full episodes and video extras for SundanceTV shows: Liar, The Split, Back, The A Word, Close Up With Hollywood Reporter and more.",
+      description:
+        "Watch the latest full episodes and video extras for SundanceTV shows: Liar, The Split, Back, The A Word, Close Up With Hollywood Reporter and more.",
       image: sundanceImage,
       links: [
         {
@@ -107,7 +111,8 @@ const constants = {
     },
     {
       title: "WEtv | AMC Networks",
-      description: "Watch the latest full episodes and video extras for WE tv shows: Marriage Boot Camp, Growing Up Hip Hop, Braxton Family Values, Love After Lockup, Mama June: From Not to Hot and more.",
+      description:
+        "Watch the latest full episodes and video extras for WE tv shows: Marriage Boot Camp, Growing Up Hip Hop, Braxton Family Values, Love After Lockup, Mama June: From Not to Hot and more.",
       image: wetvImage,
       links: [
         {
@@ -120,78 +125,83 @@ const constants = {
     },
     {
       title: "Bloom Writing",
-      description: "Write stories with the help of randomly-generated prompts and sentence suggestions.",
+      description:
+        "Write stories with the help of randomly-generated prompts and sentence suggestions.",
       image: bloomImage,
       links: [
         {
           component: faGlobeAmericas,
           link: "https://bloom-writing.herokuapp.com",
           key: "bloom-site",
-          title: "Site"
+          title: "Site",
         },
         {
           component: faGithub,
           link: "https://github.com/brandonhrowe/bloom-writing",
           key: "bloom-github",
-          title: "GitHub"
+          title: "GitHub",
         },
         {
           component: faMedium,
-          link: "https://medium.com/@brandon.h.rowe/in-search-of-lost-words-8a431227da67?source=friends_link&sk=a63a2cfe1c3ff9cf6d462754d452ab52",
+          link:
+            "https://medium.com/@brandon.h.rowe/in-search-of-lost-words-8a431227da67?source=friends_link&sk=a63a2cfe1c3ff9cf6d462754d452ab52",
           key: "bloom-medium",
-          title: "Article"
-        }
-      ]
+          title: "Article",
+        },
+      ],
     },
     {
       title: "Simmer",
-      description: "Bookmark recipes from various cooking sites through the Simmer Chrome extension for on- and off-line access.",
+      description:
+        "Bookmark recipes from various cooking sites through the Simmer Chrome extension for on- and off-line access.",
       image: simmerImage,
       links: [
         {
           component: faGlobeAmericas,
           link: "https://simmer.brook.li",
           key: "simmer-site",
-          title: "Site"
+          title: "Site",
         },
         {
           component: faGithub,
           link: "https://github.com/1902cs-indigo-oscar/Simmer",
           key: "simmer-github",
-          title: "GitHub"
+          title: "GitHub",
         },
         {
           component: faYoutube,
           link: "https://www.youtube.com/embed/N-c-Lw-gp-o",
           key: "simmer-youtube",
-          title: "Presentation"
-        }
-      ]
+          title: "Presentation",
+        },
+      ],
     },
     {
       title: "The Big Splice",
-      description: "Create old-fashioned, film-noir collages by assembling clips selected from the Internet Archive.",
+      description:
+        "Create old-fashioned, film-noir collages by assembling clips selected from the Internet Archive.",
       image: bigSpliceImage,
       links: [
         {
           component: faGlobeAmericas,
           link: "https://www.thebigsplice.com",
           key: "big-splice-site",
-          title: "Site"
+          title: "Site",
         },
         {
           component: faGithub,
           link: "https://github.com/brandonhrowe/the-big-splice",
           key: "big-splice-github",
-          title: "GitHub"
+          title: "GitHub",
         },
         {
           component: faMedium,
-          link: "https://medium.com/@brandon.h.rowe/splicing-concepts-together-faedc90170a9?source=friends_link&sk=12dc945a03cf4a027c9c7dd0c4a274ec",
+          link:
+            "https://medium.com/@brandon.h.rowe/splicing-concepts-together-faedc90170a9?source=friends_link&sk=12dc945a03cf4a027c9c7dd0c4a274ec",
           key: "big-splice-medium",
-          title: "Article"
-        }
-      ]
+          title: "Article",
+        },
+      ],
     },
     {
       title: "Brandon Rowe Portfolio Site",
@@ -202,10 +212,64 @@ const constants = {
           component: faGithub,
           link: "https://github.com/brandonhrowe/brandonrowe-portfolio-v2",
           key: "portfolio-github",
-          title: "GitHub"
+          title: "GitHub",
         },
-      ]
-    }
+      ],
+    },
+  ],
+  experiences: [
+    {
+      company: "AMC Networks",
+      roles: [
+        {
+          title: "Frontend Engineer I",
+          dates: "November 2019-present",
+          description: [
+            'Co-authored "Content Compiler" middleware to reduce frontend call times by ~95%',
+            "Lead development of Video Player implementation using Brightcove Studios",
+            'Built out "White Label" web application to host multiple websites from a single React project',
+            "Work with international team to resolve React/SCSS features and defects",
+          ],
+        },
+      ],
+    },
+    {
+      company: "Fullstack Academy",
+      roles: [
+        {
+          title: "Software Engineering Mentor",
+          dates: "October 2020-February 2021",
+          description: [
+            "Served as mentor to a recent bootcamp graduate to provide guidance with the job application process",
+            "Performed mock technical interviews with mentee to sharpen their skills",
+          ],
+        },
+        {
+          title: "Software Engineering Teaching Fellow",
+          dates: "May 2019-September2019",
+          description: [
+            "Mentored ~40 software-engineering students on Node.js, React and other JavaScript libraries",
+            "Led algorithm reviews",
+            "Acted as scrum master for senior-phase group projects",
+            "Interviewed student candidates and vet their technical abilities",
+          ],
+        },
+      ],
+    },
+    {
+      company: "Prime Focus Technologies",
+      roles: [
+        {
+          title: "Post-Production Technician",
+          dates: "May 2017-January 2019",
+          description: [
+            "Coded scripts to automate workflows using Bash and FFmpeg, speeding up processes by 500%",
+            "Managed and updated daily workflows for tech department with advanced software, increasing encoding capacity from 5 to 40 a day",
+            "Liaised with key stakeholders at HBO, IFC and A&E to manage their video encoding and editing work",
+          ],
+        },
+      ],
+    },
   ],
 };
 
