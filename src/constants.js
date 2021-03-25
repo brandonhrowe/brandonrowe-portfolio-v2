@@ -240,8 +240,8 @@ const constants = {
           title: "Software Engineering Mentor",
           dates: "October 2020-February 2021",
           description: [
-            "Served as mentor to a recent bootcamp graduate to provide guidance with the job application process",
-            "Performed mock technical interviews with mentee to sharpen their skills",
+            "Provided guidance to recent bootcamp graduate with their job application process",
+            "Conducted mock technical interviews with mentee to sharpen their skills",
           ],
         },
         {

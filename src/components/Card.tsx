@@ -24,11 +24,11 @@ const Card = ({
         <div className="card-image-filter" />
         <img src={image} alt={title} title={title} className="card-image" />
       </div>
-      <div className="card-text left">
+      <div className="card-text title">
         <h1>{title}</h1>
         <Links links={links} className="card-links icons-mobile-secondary icons-desktop-secondary" />
       </div>
-      <div className="card-text right">
+      <div className="card-text description">
         <p>{description}</p>
       </div>
       {children}
