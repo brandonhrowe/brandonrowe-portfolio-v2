@@ -1,35 +1,60 @@
 $card-border-radius: 20px;
+$card-mobile-width: 18rem;
+$card-tablet-width: 36rem;
+$card-desktop-width: 48rem;
+$card-ultrawide-width: 56rem;
 
 .card-component {
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-size: contain;
+  align-items: center;
   background-repeat: no-repeat;
-  height: 40rem;
-  width: 80%;
+  width: $card-mobile-width;
+  height: 42rem;
+
+  @media screen and (min-width: 760px) {
+    width: $card-desktop-width;
+  }
+
+  @media screen and (min-width: 960px) {
+    height: 48rem;
+  }
 
   .card-container {
     position: absolute;
+    display: flex;
+    flex-direction: column;
     margin: 0 0 5rem;
     top: 2rem;
     object-fit: contain;
     border-radius: $card-border-radius;
     border: white 1px solid;
-    width: 80%;
+    width: $card-mobile-width;
     height: 85%;
     background-size: cover;
     background-repeat: no-repeat;
     background-color:rgba(0, 0, 0, 0.7);
     box-shadow: 2rem 2rem 2rem black;
 
+    @media screen and (min-width: 760px) {
+      flex-direction: row;
+      width: $card-desktop-width;
+    }
+
+    @media screen and (min-width: 960px) {
+      width: $card-ultrawide-width;
+    }
+
     .card-image {
-      position: absolute;
+      // position: absolute;
       width: 100%;
       height: 100%;
+      flex: 2;
 
-      @media screen and (min-width: 600px) {
-        border-radius: $card-border-radius;
+      @media screen and (min-width: 760px) {
+        border-radius: $card-border-radius 0 0 $card-border-radius;
       }
 
       .card-image-filter {
@@ -40,20 +65,36 @@ $card-border-radius: 20px;
         z-index: 10;
         background:linear-gradient(black, #0000, #0000, #000000b3);
 
-        @media screen and (min-width: 600px) {
+        @media screen and (min-width: 760px) {
           background:linear-gradient(90deg, #0000, #0000000f, #000000b3);
         }
       }
 
       img {
         object-fit: cover;
-        margin-top: 7rem;
+        margin-top: 6rem;
         height: 20rem;
 
-        @media screen and (min-width: 600px) {
+        @media screen and (min-width: 760px) {
           margin-top: 0;
           height: 100%;
         }
+      }
+    }
+
+    .card-text-container {
+      z-index: 10;
+      flex: 1;
+      border-radius: $card-border-radius;
+
+      @media screen and (min-width: 760px) {
+        background-color: white;
+        opacity: .95;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-radius: 0 $card-border-radius $card-border-radius 0;
+        box-shadow: -2px 0 10px white;
       }
     }
 
@@ -70,8 +111,9 @@ $card-border-radius: 20px;
       justify-content: center;
       opacity: .95;
 
-      @media screen and (min-width: 600px) {
-        width: 30%;
+
+      @media screen and (min-width: 760px) {
+        position: relative;
         bottom: 0;
         min-height: 7rem;
       }
@@ -82,7 +124,7 @@ $card-border-radius: 20px;
         border-radius: $card-border-radius $card-border-radius 0 0;
         box-shadow: 0 2px 10px white;
 
-        @media screen and (min-width: 600px) {
+        @media screen and (min-width: 760px) {
           bottom: auto;
           border-radius: 0 $card-border-radius 0 0;
           box-shadow: -2px 2px 10px white;
@@ -106,12 +148,12 @@ $card-border-radius: 20px;
         p {
           padding-bottom: 3rem;
 
-          @media screen and (min-width: 600px) {
+          @media screen and (min-width: 760px) {
             padding-bottom: 0;
           }
         }
 
-        @media screen and (min-width: 600px) {
+        @media screen and (min-width: 760px) {
           min-height: 3rem;
           border-radius: 0 0 $card-border-radius 0;
           box-shadow: -2px -2px 10px white;

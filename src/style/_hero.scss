@@ -23,7 +23,7 @@
 
     & > .carousel-component.grid-bottom {
       @media screen and (min-width: 600px) {
-        margin-top: -12rem;
+        margin-top: -18rem;
       }
     }
 
@@ -71,10 +71,6 @@
     &.projects-hero {
       .hero-title {
         align-self: auto;
-      }
-
-      .carousel-component {
-        align-self: end;
       }
     }
   }
