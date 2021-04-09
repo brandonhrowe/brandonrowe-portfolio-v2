@@ -271,6 +271,71 @@ const constants = {
       ],
     },
   ],
+  tech: [
+    {
+      name: 'JavaScript'
+    },
+    {
+      name: 'Python'
+    },
+    {
+      name: 'React'
+    },
+    {
+      name: 'HTML'
+    },
+    {
+      name: 'CSS'
+    },
+    {
+      name: 'Node'
+    },
+    {
+      name: 'Express'
+    },
+    {
+      name: 'Git'
+    },
+    {
+      name: 'Redux'
+    },
+    {
+      name: 'Brightcove'
+    },
+    {
+      name: 'video.js'
+    },
+    {
+      name: 'Jest'
+    },
+    {
+      name: 'BASH'
+    },
+    {
+      name: 'ffmpeg'
+    },
+    {
+      name: 'Adobe Creative Suites'
+    },
+    {
+      name: 'SQL'
+    },
+    {
+      name: 'PostgreSQL'
+    },
+    {
+      name: 'Webpack'
+    },
+    {
+      name: 'GraphQL'
+    },
+    {
+      name: 'Django'
+    },
+    {
+      name: 'Cron'
+    }
+  ]
 };
 
 export default constants;
