@@ -316,9 +316,9 @@ const constants = {
     {
       name: 'ffmpeg'
     },
-    {
-      name: 'Adobe Creative Suites'
-    },
+    // {
+    //   name: 'Adobe Creative Suites'
+    // },
     {
       name: 'SQL'
     },
@@ -336,6 +336,9 @@ const constants = {
     },
     {
       name: 'Cron'
+    },
+    {
+      name: 'NextJS'
     }
   ]
 };
