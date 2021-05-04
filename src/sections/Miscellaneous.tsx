@@ -2,7 +2,7 @@ import React from "react";
 import Hero from "../components/Hero";
 import constants from "../constants";
 
-const { tech } = constants;
+const { resume, tech } = constants;
 
 const Miscellaneous = () => {
   return (
@@ -11,8 +11,27 @@ const Miscellaneous = () => {
         <h1>Miscellaneous</h1>
         <h3>(aka all the other fun stuff)</h3>
       </div>
-      <div className="tech-stack grid-v-center grid-right">
-        <h1>Tech Stack</h1>
+      <div className="misc-section resume grid-v-center grid-h-center">
+        <h1>The Resume I Gift To You</h1>
+        <div className="arrow-down">
+          <div>|</div>
+          <div>|</div>
+          <div>V</div>
+        </div>
+        <a
+          href={resume}
+          rel="noreferrer"
+          target="_blank"
+          className="resume-download"
+        >
+          <span>DOWNLOAD (It's Free!)</span>
+        </a>
+      </div>
+      <div className="misc-section places grid-v-center grid-left">
+        <h1>The Places I've Been</h1>
+      </div>
+      <div className="misc-section tech-stack grid-v-center grid-right">
+        <h1>The Tech I Stack</h1>
         <ul>
           {tech.map(({ name }) => (
             <li key={name}>{name}</li>

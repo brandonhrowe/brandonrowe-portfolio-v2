@@ -17,8 +17,10 @@ import portfolioImage from "./assets/Portfolio_Full.png";
 import VideoHQ from "./assets/Portfolio_Video.mp4";
 import VideoLQ from "./assets/Portfolio_Video_1mbps.webm";
 import VideoPlaceholder from "./assets/Portfolio_Video Placeholder.jpg";
+import resume from "./assets/Brandon_H_Rowe_Tech_Resume_2021.pdf";
 
 const constants = {
+  resume,
   backgroundVideo: {
     lowQuality: {
       src: VideoLQ,
