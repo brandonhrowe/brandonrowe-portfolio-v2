@@ -37,7 +37,7 @@ import PrimeFocusLogo from "./assets/PrimeFocus_Logo.png";
 import PythonLogo from "./assets/PrimeFocus_Logo.png";
 import ReactLogo from "./assets/React_Logo.png";
 import ReduxLogo from "./assets/Redux_Logo.png";
-import SQLLogo from "./assets/SQL_Logo.png";
+import SQLLogo from "./assets/SQL_Logo.jpg";
 import TypescriptLogo from "./assets/Typescript_Logo.png";
 import VideojsLogo from "./assets/Videojs_Logo.png";
 import WebpackLogo from "./assets/Webpack_Logo.png";
@@ -45,7 +45,6 @@ import VideoHQ from "./assets/Portfolio_Video.mp4";
 import VideoLQ from "./assets/Portfolio_Video_1mbps.webm";
 import VideoPlaceholder from "./assets/Portfolio_Video Placeholder.jpg";
 import resume from "./assets/Brandon_H_Rowe_Tech_Resume_2021.pdf";
-import { doesNotReject } from "assert";
 
 const constants = {
   resume,
@@ -247,7 +246,7 @@ const constants = {
       ],
     },
   ],
-  experiences: [
+  experience: [
     {
       name: "AMC Networks",
       logo: AMCNLogo,

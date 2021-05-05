@@ -1,8 +1,9 @@
 import React from "react";
 import Hero from "../components/Hero";
+import Logos from "../components/Logos";
 import constants from "../constants";
 
-const { resume, tech } = constants;
+const { resume, experience, tech } = constants;
 
 const Miscellaneous = () => {
   return (
@@ -29,14 +30,11 @@ const Miscellaneous = () => {
       </div>
       <div className="misc-section places grid-v-center grid-left">
         <h1>The Places I've Been</h1>
+        <Logos logos={experience} className="experience" />
       </div>
       <div className="misc-section tech-stack grid-v-center grid-right">
         <h1>The Tech I Stack</h1>
-        <ul>
-          {tech.map(({ name }) => (
-            <li key={name}>{name}</li>
-          ))}
-        </ul>
+        <Logos logos={tech} className="tech" />
       </div>
     </Hero>
   );

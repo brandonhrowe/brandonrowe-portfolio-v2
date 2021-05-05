@@ -7,6 +7,7 @@ interface LogoProps {
 
 interface LogosProps {
   logos: Array<LogoProps>;
+  className?: string;
 }
 
 const Logo = ({ logo, name }: LogoProps) => (
@@ -15,10 +16,12 @@ const Logo = ({ logo, name }: LogoProps) => (
   </div>
 );
 
-const Logos = ({ logos }: LogosProps) => (
-  <div className="logos-component">
+const Logos = ({ logos, className }: LogosProps) => (
+  <div className={`logos-component ${className}`}>
     {logos.map(({ logo, name }) => (
-      <Logo logo={logo} name={name} key={name} />
+      <div className="logo-wrapper" key={name}>
+        <Logo logo={logo} name={name} />
+      </div>
     ))}
   </div>
 );
