@@ -251,6 +251,7 @@ const constants = {
     {
       name: "AMC Networks",
       logo: AMCNLogo,
+      link: "https://www.amc.com/",
       roles: [
         {
           title: "Frontend Engineer I",
@@ -267,6 +268,7 @@ const constants = {
     {
       name: "Fullstack Academy",
       logo: FullstackLogo,
+      link: "https://www.fullstackacademy.com/",
       roles: [
         {
           title: "Software Engineering Mentor",
@@ -291,6 +293,8 @@ const constants = {
     {
       name: "Prime Focus Technologies",
       logo: PrimeFocusLogo,
+      link: "https://www.primefocustechnologies.com/",
+      className: "img-resize",
       roles: [
         {
           title: "Post-Production Technician",
@@ -306,11 +310,13 @@ const constants = {
     {
       name: "Deluxe",
       logo: DeluxeLogo,
+      link: "https://www.bydeluxe.com/en/",
       roles: []
     },
     {
       name: "NYU",
       logo: NYULogo,
+      link: "https://www.nyu.edu/",
       roles: []
     }
   ],
