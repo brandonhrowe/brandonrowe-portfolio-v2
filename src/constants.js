@@ -38,6 +38,7 @@ import PythonLogo from "./assets/PrimeFocus_Logo.png";
 import ReactLogo from "./assets/React_Logo.png";
 import ReduxLogo from "./assets/Redux_Logo.png";
 import SQLLogo from "./assets/SQL_Logo.png";
+import TypescriptLogo from "./assets/Typescript_Logo.png";
 import VideojsLogo from "./assets/Videojs_Logo.png";
 import WebpackLogo from "./assets/Webpack_Logo.png";
 import VideoHQ from "./assets/Portfolio_Video.mp4";
@@ -248,7 +249,7 @@ const constants = {
   ],
   experiences: [
     {
-      company: "AMC Networks",
+      name: "AMC Networks",
       logo: AMCNLogo,
       roles: [
         {
@@ -264,7 +265,7 @@ const constants = {
       ],
     },
     {
-      company: "Fullstack Academy",
+      name: "Fullstack Academy",
       logo: FullstackLogo,
       roles: [
         {
@@ -288,7 +289,7 @@ const constants = {
       ],
     },
     {
-      company: "Prime Focus Technologies",
+      name: "Prime Focus Technologies",
       logo: PrimeFocusLogo,
       roles: [
         {
@@ -303,12 +304,12 @@ const constants = {
       ],
     },
     {
-      company: "Deluxe",
+      name: "Deluxe",
       logo: DeluxeLogo,
       roles: []
     },
     {
-      company: "NYU",
+      name: "NYU",
       logo: NYULogo,
       roles: []
     }
@@ -400,6 +401,10 @@ const constants = {
     {
       name: 'NextJS',
       logo: NextJSLogo
+    },
+    {
+      name: 'TypeScript',
+      logo: TypescriptLogo
     }
   ]
 };
