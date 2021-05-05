@@ -9,18 +9,20 @@ type VideoSrcObj = {
 
 interface HeroProps {
   className?: string;
+  id?: string;
   backgroundVideo?: VideoSrcObj;
   children?: React.ReactNode;
   style?: Object;
 }
 
 const Hero = ({
+  id,
   className = "",
   backgroundVideo,
   children,
   style
 }: HeroProps) => (
-  <section className={`hero-component ${className}`.trim()} style={style}>
+  <section id={id} className={`hero-component ${className}`.trim()} style={style}>
     {backgroundVideo && (
       <Video
         className="background-video"

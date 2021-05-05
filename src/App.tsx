@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import Header from "./sections/Header";
 import Home from "./sections/Home";
 import AboutMe from "./sections/AboutMe";
 import Projects from "./sections/Projects";
@@ -39,6 +40,7 @@ const App = () => {
 
   return (
     <div id="app" ref={appRef}>
+      <Header color={backgroundOpacity}/>
       <Hero
         backgroundVideo={backgroundVideo}
         className="app-hero"

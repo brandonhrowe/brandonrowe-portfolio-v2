@@ -3,7 +3,7 @@ import Hero from "../components/Hero";
 import headshot from "../assets/Rowe_Headshot_300x285.jpg";
 
 const AboutMe = () => (
-  <Hero className="about-me">
+  <Hero className="about-me" id="about-me">
     <div className="grid-h-center grid-v-center about-me-content">
       <div className="about-me-text">
         <div className="title-wrapper">

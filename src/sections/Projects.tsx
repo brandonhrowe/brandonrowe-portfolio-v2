@@ -7,7 +7,7 @@ import constants from "../constants";
 const { projects } = constants;
 
 const Projects = () => (
-  <Hero className="projects-hero">
+  <Hero className="projects-hero" id="projects">
     <div className="title-wrapper grid-top grid-h-center">
     <h1 className="hero-title">Projects</h1>
     </div>

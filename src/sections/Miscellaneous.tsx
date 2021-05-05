@@ -7,7 +7,7 @@ const { resume, experience, tech } = constants;
 
 const Miscellaneous = () => {
   return (
-    <Hero className="misc-hero">
+    <Hero className="misc-hero" id="misc">
       <div className="grid-top grid-h-center hero-title">
         <h1>Miscellaneous</h1>
         <h3>(aka all the other fun stuff)</h3>
