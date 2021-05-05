@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/brandonrowe-portfolio-v2/static/css/main.2155bd0a.chunk.css",
-    "main.js": "/brandonrowe-portfolio-v2/static/js/main.c5da02bb.chunk.js",
-    "main.js.map": "/brandonrowe-portfolio-v2/static/js/main.c5da02bb.chunk.js.map",
+    "main.css": "/brandonrowe-portfolio-v2/static/css/main.434bc993.chunk.css",
+    "main.js": "/brandonrowe-portfolio-v2/static/js/main.91ff9de6.chunk.js",
+    "main.js.map": "/brandonrowe-portfolio-v2/static/js/main.91ff9de6.chunk.js.map",
     "runtime-main.js": "/brandonrowe-portfolio-v2/static/js/runtime-main.db1e9b89.js",
     "runtime-main.js.map": "/brandonrowe-portfolio-v2/static/js/runtime-main.db1e9b89.js.map",
-    "static/js/2.fb23e3b4.chunk.js": "/brandonrowe-portfolio-v2/static/js/2.fb23e3b4.chunk.js",
-    "static/js/2.fb23e3b4.chunk.js.map": "/brandonrowe-portfolio-v2/static/js/2.fb23e3b4.chunk.js.map",
+    "static/js/2.8e8f4e1e.chunk.js": "/brandonrowe-portfolio-v2/static/js/2.8e8f4e1e.chunk.js",
+    "static/js/2.8e8f4e1e.chunk.js.map": "/brandonrowe-portfolio-v2/static/js/2.8e8f4e1e.chunk.js.map",
     "static/js/3.0cfbc402.chunk.js": "/brandonrowe-portfolio-v2/static/js/3.0cfbc402.chunk.js",
     "static/js/3.0cfbc402.chunk.js.map": "/brandonrowe-portfolio-v2/static/js/3.0cfbc402.chunk.js.map",
     "index.html": "/brandonrowe-portfolio-v2/index.html",
-    "static/css/main.2155bd0a.chunk.css.map": "/brandonrowe-portfolio-v2/static/css/main.2155bd0a.chunk.css.map",
-    "static/js/2.fb23e3b4.chunk.js.LICENSE.txt": "/brandonrowe-portfolio-v2/static/js/2.fb23e3b4.chunk.js.LICENSE.txt",
+    "static/css/main.434bc993.chunk.css.map": "/brandonrowe-portfolio-v2/static/css/main.434bc993.chunk.css.map",
+    "static/js/2.8e8f4e1e.chunk.js.LICENSE.txt": "/brandonrowe-portfolio-v2/static/js/2.8e8f4e1e.chunk.js.LICENSE.txt",
     "static/media/AMCN_Logo.e597f502.png": "/brandonrowe-portfolio-v2/static/media/AMCN_Logo.e597f502.png",
     "static/media/AMC_Image_Desktop.b3328aec.png": "/brandonrowe-portfolio-v2/static/media/AMC_Image_Desktop.b3328aec.png",
     "static/media/BBCA_Image.5829304d.png": "/brandonrowe-portfolio-v2/static/media/BBCA_Image.5829304d.png",
     "static/media/BigSplice_Full.083bfd0e.jpg": "/brandonrowe-portfolio-v2/static/media/BigSplice_Full.083bfd0e.jpg",
     "static/media/Bloom_Full.2e9ff174.jpg": "/brandonrowe-portfolio-v2/static/media/Bloom_Full.2e9ff174.jpg",
-    "static/media/Brandon_H_Rowe_Tech_Resume_2021.bb89b599.pdf": "/brandonrowe-portfolio-v2/static/media/Brandon_H_Rowe_Tech_Resume_2021.bb89b599.pdf",
+    "static/media/Brandon_H_Rowe_Tech_Resume_2021.fb395f3d.pdf": "/brandonrowe-portfolio-v2/static/media/Brandon_H_Rowe_Tech_Resume_2021.fb395f3d.pdf",
     "static/media/Brightcove_Logo.29cdc52b.png": "/brandonrowe-portfolio-v2/static/media/Brightcove_Logo.29cdc52b.png",
     "static/media/CSS_Logo.5447a478.png": "/brandonrowe-portfolio-v2/static/media/CSS_Logo.5447a478.png",
     "static/media/Deluxe_Logo.7fe48e98.png": "/brandonrowe-portfolio-v2/static/media/Deluxe_Logo.7fe48e98.png",
@@ -40,6 +40,7 @@
     "static/media/React_Logo.f153eb9f.png": "/brandonrowe-portfolio-v2/static/media/React_Logo.f153eb9f.png",
     "static/media/Redux_Logo.ba0a91a0.png": "/brandonrowe-portfolio-v2/static/media/Redux_Logo.ba0a91a0.png",
     "static/media/Rowe_Headshot_300x285.04d4f569.jpg": "/brandonrowe-portfolio-v2/static/media/Rowe_Headshot_300x285.04d4f569.jpg",
+    "static/media/SCSS_Logo.d01a1e20.jpeg": "/brandonrowe-portfolio-v2/static/media/SCSS_Logo.d01a1e20.jpeg",
     "static/media/SQL_Logo.e997467c.jpg": "/brandonrowe-portfolio-v2/static/media/SQL_Logo.e997467c.jpg",
     "static/media/Simmer_Full.79c7075c.jpg": "/brandonrowe-portfolio-v2/static/media/Simmer_Full.79c7075c.jpg",
     "static/media/Sundance_Image.390b2c7c.png": "/brandonrowe-portfolio-v2/static/media/Sundance_Image.390b2c7c.png",
@@ -50,8 +51,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.db1e9b89.js",
-    "static/js/2.fb23e3b4.chunk.js",
-    "static/css/main.2155bd0a.chunk.css",
-    "static/js/main.c5da02bb.chunk.js"
+    "static/js/2.8e8f4e1e.chunk.js",
+    "static/css/main.434bc993.chunk.css",
+    "static/js/main.91ff9de6.chunk.js"
   ]
 }
