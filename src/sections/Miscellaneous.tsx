@@ -33,7 +33,7 @@ const Miscellaneous = () => {
         <Logos logos={experience} className="places" />
       </div>
       <div className="misc-section tech-stack grid-v-center grid-right">
-        <h1>The Tech I Stack</h1>
+        <h1>The Tech I've Stacked</h1>
         <Logos logos={tech.slice(0, 10)} className="tech tech1" />
         <Logos logos={tech.slice(10)} className="tech tech2" />
       </div>
