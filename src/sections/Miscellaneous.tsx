@@ -30,11 +30,12 @@ const Miscellaneous = () => {
       </div>
       <div className="misc-section places grid-v-center grid-left">
         <h1>The Places I've Been</h1>
-        <Logos logos={experience} className="experience" />
+        <Logos logos={experience} className="places" />
       </div>
       <div className="misc-section tech-stack grid-v-center grid-right">
         <h1>The Tech I Stack</h1>
-        <Logos logos={tech} className="tech" />
+        <Logos logos={tech.slice(0, 10)} className="tech tech1" />
+        <Logos logos={tech.slice(10)} className="tech tech2" />
       </div>
     </Hero>
   );

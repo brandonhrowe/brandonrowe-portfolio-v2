@@ -34,7 +34,7 @@ import NodeLogo from "./assets/Node_Logo.png";
 import NYULogo from "./assets/NYU_Logo.png";
 import PostgreSQLLogo from "./assets/Postgresql_Logo.png";
 import PrimeFocusLogo from "./assets/PrimeFocus_Logo.png";
-import PythonLogo from "./assets/PrimeFocus_Logo.png";
+import PythonLogo from "./assets/Python_Logo.png";
 import ReactLogo from "./assets/React_Logo.png";
 import ReduxLogo from "./assets/Redux_Logo.png";
 import SQLLogo from "./assets/SQL_Logo.jpg";
@@ -362,10 +362,10 @@ const constants = {
       name: 'Jest',
       logo: JestLogo
     },
-    {
-      name: 'BASH',
-      logo: BashLogo
-    },
+    // {
+    //   name: 'BASH',
+    //   logo: BashLogo
+    // },
     {
       name: 'ffmpeg',
       logo: FFmpegLogo
@@ -385,22 +385,22 @@ const constants = {
       name: 'Webpack',
       logo: WebpackLogo
     },
-    {
-      name: 'GraphQL',
-      logo: GraphQLLogo
-    },
+    // {
+    //   name: 'GraphQL',
+    //   logo: GraphQLLogo
+    // },
     {
       name: 'Django',
       logo: DjangoLogo
     },
-    {
-      name: 'Cron',
-      logo: CronLogo
-    },
-    {
-      name: 'NextJS',
-      logo: NextJSLogo
-    },
+    // {
+    //   name: 'Cron',
+    //   logo: CronLogo
+    // },
+    // {
+    //   name: 'NextJS',
+    //   logo: NextJSLogo
+    // },
     {
       name: 'TypeScript',
       logo: TypescriptLogo

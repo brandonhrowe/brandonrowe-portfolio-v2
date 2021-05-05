@@ -8,7 +8,9 @@ const { projects } = constants;
 
 const Projects = () => (
   <Hero className="projects-hero">
-    <h1 className="grid-top grid-h-center hero-title">Projects</h1>
+    <div className="title-wrapper grid-top grid-h-center">
+    <h1 className="hero-title">Projects</h1>
+    </div>
     <Carousel className="grid-bottom grid-h-center">
       {projects.map((proj) => (
         <Card {...proj} key={proj.title} />
