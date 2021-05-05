@@ -14,10 +14,37 @@ import bloomImage from "./assets/Bloom_Full.jpg";
 import simmerImage from "./assets/Simmer_Full.jpg";
 import bigSpliceImage from "./assets/BigSplice_Full.jpg";
 import portfolioImage from "./assets/Portfolio_Full.png";
+import AMCNLogo from "./assets/AMCN_Logo.png";
+import BashLogo from "./assets/Bash_Logo.png";
+import BrightcoveLogo from "./assets/Brightcove_Logo.png";
+import CronLogo from "./assets/Cron_Logo.png";
+import CSSLogo from "./assets/CSS_Logo.png";
+import DeluxeLogo from "./assets/Deluxe_Logo.png";
+import DjangoLogo from "./assets/Django_Logo.png";
+import ExpressLogo from "./assets/Express_Logo.png";
+import FFmpegLogo from "./assets/FFmpeg_Logo.png";
+import FullstackLogo from "./assets/Fullstack_Logo.png";
+import GitLogo from "./assets/Git_Logo.png";
+import GraphQLLogo from "./assets/GraphQL_Logo.png";
+import HTMLLogo from "./assets/HTML_Logo.png";
+import JestLogo from "./assets/Jest_Logo.png";
+import JSLogo from "./assets/JS_Logo.png";
+import NextJSLogo from "./assets/NextJS_Logo.png";
+import NodeLogo from "./assets/Node_Logo.png";
+import NYULogo from "./assets/NYU_Logo.png";
+import PostgreSQLLogo from "./assets/Postgresql_Logo.png";
+import PrimeFocusLogo from "./assets/PrimeFocus_Logo.png";
+import PythonLogo from "./assets/PrimeFocus_Logo.png";
+import ReactLogo from "./assets/React_Logo.png";
+import ReduxLogo from "./assets/Redux_Logo.png";
+import SQLLogo from "./assets/SQL_Logo.png";
+import VideojsLogo from "./assets/Videojs_Logo.png";
+import WebpackLogo from "./assets/Webpack_Logo.png";
 import VideoHQ from "./assets/Portfolio_Video.mp4";
 import VideoLQ from "./assets/Portfolio_Video_1mbps.webm";
 import VideoPlaceholder from "./assets/Portfolio_Video Placeholder.jpg";
 import resume from "./assets/Brandon_H_Rowe_Tech_Resume_2021.pdf";
+import { doesNotReject } from "assert";
 
 const constants = {
   resume,
@@ -222,6 +249,7 @@ const constants = {
   experiences: [
     {
       company: "AMC Networks",
+      logo: AMCNLogo,
       roles: [
         {
           title: "Frontend Engineer I",
@@ -237,6 +265,7 @@ const constants = {
     },
     {
       company: "Fullstack Academy",
+      logo: FullstackLogo,
       roles: [
         {
           title: "Software Engineering Mentor",
@@ -260,6 +289,7 @@ const constants = {
     },
     {
       company: "Prime Focus Technologies",
+      logo: PrimeFocusLogo,
       roles: [
         {
           title: "Post-Production Technician",
@@ -272,73 +302,104 @@ const constants = {
         },
       ],
     },
+    {
+      company: "Deluxe",
+      logo: DeluxeLogo,
+      roles: []
+    },
+    {
+      company: "NYU",
+      logo: NYULogo,
+      roles: []
+    }
   ],
   tech: [
     {
-      name: 'JavaScript'
+      name: 'JavaScript',
+      logo: JSLogo
     },
     {
-      name: 'Python'
+      name: 'Python',
+      logo: PythonLogo
     },
     {
-      name: 'React'
+      name: 'React',
+      logo: ReactLogo
     },
     {
-      name: 'HTML'
+      name: 'HTML',
+      logo: HTMLLogo
     },
     {
-      name: 'CSS'
+      name: 'CSS',
+      logo: CSSLogo
     },
     {
-      name: 'Node'
+      name: 'Node',
+      logo: NodeLogo
     },
     {
-      name: 'Express'
+      name: 'Express',
+      logo: ExpressLogo
     },
     {
-      name: 'Git'
+      name: 'Git',
+      logo: GitLogo
     },
     {
-      name: 'Redux'
+      name: 'Redux',
+      logo: ReduxLogo
     },
     {
-      name: 'Brightcove'
+      name: 'Brightcove',
+      logo: BrightcoveLogo
     },
     {
-      name: 'video.js'
+      name: 'video.js',
+      logo: VideojsLogo
     },
     {
-      name: 'Jest'
+      name: 'Jest',
+      logo: JestLogo
     },
     {
-      name: 'BASH'
+      name: 'BASH',
+      logo: BashLogo
     },
     {
-      name: 'ffmpeg'
+      name: 'ffmpeg',
+      logo: FFmpegLogo
     },
     // {
     //   name: 'Adobe Creative Suites'
     // },
     {
-      name: 'SQL'
+      name: 'SQL',
+      logo: SQLLogo
     },
     {
-      name: 'PostgreSQL'
+      name: 'PostgreSQL',
+      logo: PostgreSQLLogo
     },
     {
-      name: 'Webpack'
+      name: 'Webpack',
+      logo: WebpackLogo
     },
     {
-      name: 'GraphQL'
+      name: 'GraphQL',
+      logo: GraphQLLogo
     },
     {
-      name: 'Django'
+      name: 'Django',
+      logo: DjangoLogo
     },
     {
-      name: 'Cron'
+      name: 'Cron',
+      logo: CronLogo
     },
     {
-      name: 'NextJS'
+      name: 'NextJS',
+      logo: NextJSLogo
     }
   ]
 };
