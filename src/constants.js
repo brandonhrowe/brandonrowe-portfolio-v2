@@ -37,6 +37,7 @@ import PrimeFocusLogo from "./assets/PrimeFocus_Logo.png";
 import PythonLogo from "./assets/Python_Logo.png";
 import ReactLogo from "./assets/React_Logo.png";
 import ReduxLogo from "./assets/Redux_Logo.png";
+import SCSSLogo from "./assets/SCSS_Logo.jpeg";
 import SQLLogo from "./assets/SQL_Logo.jpg";
 import TypescriptLogo from "./assets/Typescript_Logo.png";
 import VideojsLogo from "./assets/Videojs_Logo.png";
@@ -328,11 +329,17 @@ const constants = {
     },
     {
       name: 'HTML',
-      logo: HTMLLogo
+      logo: HTMLLogo,
+      className: 'img-resize'
     },
     {
       name: 'CSS',
-      logo: CSSLogo
+      logo: CSSLogo,
+      className: 'img-resize'
+    },
+    {
+      name: 'SCSS',
+      logo: SCSSLogo
     },
     {
       name: 'Node',
@@ -385,10 +392,10 @@ const constants = {
       name: 'Webpack',
       logo: WebpackLogo
     },
-    // {
-    //   name: 'GraphQL',
-    //   logo: GraphQLLogo
-    // },
+    {
+      name: 'GraphQL',
+      logo: GraphQLLogo
+    },
     {
       name: 'Django',
       logo: DjangoLogo
@@ -397,10 +404,10 @@ const constants = {
     //   name: 'Cron',
     //   logo: CronLogo
     // },
-    // {
-    //   name: 'NextJS',
-    //   logo: NextJSLogo
-    // },
+    {
+      name: 'NextJS',
+      logo: NextJSLogo
+    },
     {
       name: 'TypeScript',
       logo: TypescriptLogo
