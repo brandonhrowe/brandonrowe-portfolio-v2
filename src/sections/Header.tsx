@@ -46,7 +46,6 @@ const isExternal = (ext = false) => {
 };
 
 const getTextStyling = (val = 0) => {
-  console.log("val", val);
   const col = val * 255 * (5 / 3);
   return {
     color: `rgba(${Array(3).fill(col).join(', ')}, ${1 - val})`,
