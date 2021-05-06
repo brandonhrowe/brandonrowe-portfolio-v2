@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/brandonrowe-portfolio-v2/static/css/main.434bc993.chunk.css",
-    "main.js": "/brandonrowe-portfolio-v2/static/js/main.91ff9de6.chunk.js",
-    "main.js.map": "/brandonrowe-portfolio-v2/static/js/main.91ff9de6.chunk.js.map",
+    "main.js": "/brandonrowe-portfolio-v2/static/js/main.85e66e20.chunk.js",
+    "main.js.map": "/brandonrowe-portfolio-v2/static/js/main.85e66e20.chunk.js.map",
     "runtime-main.js": "/brandonrowe-portfolio-v2/static/js/runtime-main.db1e9b89.js",
     "runtime-main.js.map": "/brandonrowe-portfolio-v2/static/js/runtime-main.db1e9b89.js.map",
     "static/js/2.8e8f4e1e.chunk.js": "/brandonrowe-portfolio-v2/static/js/2.8e8f4e1e.chunk.js",
@@ -13,10 +13,10 @@
     "static/css/main.434bc993.chunk.css.map": "/brandonrowe-portfolio-v2/static/css/main.434bc993.chunk.css.map",
     "static/js/2.8e8f4e1e.chunk.js.LICENSE.txt": "/brandonrowe-portfolio-v2/static/js/2.8e8f4e1e.chunk.js.LICENSE.txt",
     "static/media/AMCN_Logo.e597f502.png": "/brandonrowe-portfolio-v2/static/media/AMCN_Logo.e597f502.png",
-    "static/media/AMC_Image_Desktop.b3328aec.png": "/brandonrowe-portfolio-v2/static/media/AMC_Image_Desktop.b3328aec.png",
-    "static/media/BBCA_Image.5829304d.png": "/brandonrowe-portfolio-v2/static/media/BBCA_Image.5829304d.png",
-    "static/media/BigSplice_Full.083bfd0e.jpg": "/brandonrowe-portfolio-v2/static/media/BigSplice_Full.083bfd0e.jpg",
-    "static/media/Bloom_Full.2e9ff174.jpg": "/brandonrowe-portfolio-v2/static/media/Bloom_Full.2e9ff174.jpg",
+    "static/media/AMC_Image.331a7182.png": "/brandonrowe-portfolio-v2/static/media/AMC_Image.331a7182.png",
+    "static/media/BBCA_Image.14b6fe7e.png": "/brandonrowe-portfolio-v2/static/media/BBCA_Image.14b6fe7e.png",
+    "static/media/BigSplice_Full.b58534b5.png": "/brandonrowe-portfolio-v2/static/media/BigSplice_Full.b58534b5.png",
+    "static/media/Bloom_Full.1ca2b8da.png": "/brandonrowe-portfolio-v2/static/media/Bloom_Full.1ca2b8da.png",
     "static/media/Brandon_H_Rowe_Tech_Resume_2021.fb395f3d.pdf": "/brandonrowe-portfolio-v2/static/media/Brandon_H_Rowe_Tech_Resume_2021.fb395f3d.pdf",
     "static/media/Brightcove_Logo.29cdc52b.png": "/brandonrowe-portfolio-v2/static/media/Brightcove_Logo.29cdc52b.png",
     "static/media/CSS_Logo.5447a478.png": "/brandonrowe-portfolio-v2/static/media/CSS_Logo.5447a478.png",
@@ -27,12 +27,12 @@
     "static/media/Fullstack_Logo.fe9abe34.png": "/brandonrowe-portfolio-v2/static/media/Fullstack_Logo.fe9abe34.png",
     "static/media/Git_Logo.c2f5c09e.png": "/brandonrowe-portfolio-v2/static/media/Git_Logo.c2f5c09e.png",
     "static/media/GraphQL_Logo.5abef1eb.png": "/brandonrowe-portfolio-v2/static/media/GraphQL_Logo.5abef1eb.png",
-    "static/media/IFC_Image.06d0ab2e.png": "/brandonrowe-portfolio-v2/static/media/IFC_Image.06d0ab2e.png",
+    "static/media/IFC_Image.1791c199.png": "/brandonrowe-portfolio-v2/static/media/IFC_Image.1791c199.png",
     "static/media/JS_Logo.b08bf619.png": "/brandonrowe-portfolio-v2/static/media/JS_Logo.b08bf619.png",
     "static/media/NYU_Logo.092e31e1.png": "/brandonrowe-portfolio-v2/static/media/NYU_Logo.092e31e1.png",
     "static/media/NextJS_Logo.6db19b31.png": "/brandonrowe-portfolio-v2/static/media/NextJS_Logo.6db19b31.png",
     "static/media/Node_Logo.c2e22c63.png": "/brandonrowe-portfolio-v2/static/media/Node_Logo.c2e22c63.png",
-    "static/media/Portfolio_Full.2ac65ed8.png": "/brandonrowe-portfolio-v2/static/media/Portfolio_Full.2ac65ed8.png",
+    "static/media/Portfolio_Full.29d72def.png": "/brandonrowe-portfolio-v2/static/media/Portfolio_Full.29d72def.png",
     "static/media/Portfolio_Video Placeholder.a54c23f2.jpg": "/brandonrowe-portfolio-v2/static/media/Portfolio_Video Placeholder.a54c23f2.jpg",
     "static/media/Portfolio_Video.c2f4fb6e.mp4": "/brandonrowe-portfolio-v2/static/media/Portfolio_Video.c2f4fb6e.mp4",
     "static/media/Portfolio_Video_1mbps.0676d1ce.webm": "/brandonrowe-portfolio-v2/static/media/Portfolio_Video_1mbps.0676d1ce.webm",
@@ -43,16 +43,16 @@
     "static/media/SCSS_Logo.d01a1e20.jpeg": "/brandonrowe-portfolio-v2/static/media/SCSS_Logo.d01a1e20.jpeg",
     "static/media/SQL_Logo.e997467c.jpg": "/brandonrowe-portfolio-v2/static/media/SQL_Logo.e997467c.jpg",
     "static/media/Simmer_Full.79c7075c.jpg": "/brandonrowe-portfolio-v2/static/media/Simmer_Full.79c7075c.jpg",
-    "static/media/Sundance_Image.390b2c7c.png": "/brandonrowe-portfolio-v2/static/media/Sundance_Image.390b2c7c.png",
+    "static/media/Sundance_Image.0912a801.png": "/brandonrowe-portfolio-v2/static/media/Sundance_Image.0912a801.png",
     "static/media/Typescript_Logo.5c70a1d2.png": "/brandonrowe-portfolio-v2/static/media/Typescript_Logo.5c70a1d2.png",
     "static/media/Videojs_Logo.7a6c59f4.png": "/brandonrowe-portfolio-v2/static/media/Videojs_Logo.7a6c59f4.png",
-    "static/media/WeTv_Image.8a7cd6c3.png": "/brandonrowe-portfolio-v2/static/media/WeTv_Image.8a7cd6c3.png",
+    "static/media/WeTv_Image.ba8ec2fd.png": "/brandonrowe-portfolio-v2/static/media/WeTv_Image.ba8ec2fd.png",
     "static/media/Webpack_Logo.3b7bf087.png": "/brandonrowe-portfolio-v2/static/media/Webpack_Logo.3b7bf087.png"
   },
   "entrypoints": [
     "static/js/runtime-main.db1e9b89.js",
     "static/js/2.8e8f4e1e.chunk.js",
     "static/css/main.434bc993.chunk.css",
-    "static/js/main.91ff9de6.chunk.js"
+    "static/js/main.85e66e20.chunk.js"
   ]
 }
