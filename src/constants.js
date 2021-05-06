@@ -323,57 +323,70 @@ const constants = {
   tech: [
     {
       name: 'JavaScript',
-      logo: JSLogo
+      logo: JSLogo,
+      link: 'https://www.javascript.com/'
     },
     {
       name: 'Python',
-      logo: PythonLogo
+      logo: PythonLogo,
+      link: 'https://www.python.org/'
     },
     {
       name: 'React',
-      logo: ReactLogo
+      logo: ReactLogo,
+      link: 'https://reactjs.org/'
     },
     {
       name: 'HTML',
       logo: HTMLLogo,
-      className: 'img-resize'
+      className: 'img-resize',
+      link: 'https://www.w3schools.com/html/html_intro.asp'
     },
     {
       name: 'CSS',
       logo: CSSLogo,
-      className: 'img-resize'
+      className: 'img-resize',
+      link: 'https://www.w3schools.com/css/'
     },
     {
       name: 'SCSS',
-      logo: SCSSLogo
+      logo: SCSSLogo,
+      link: 'https://sass-lang.com/'
     },
     {
       name: 'Node',
-      logo: NodeLogo
+      logo: NodeLogo,
+      link: 'https://nodejs.org/en/'
     },
     {
       name: 'Express',
-      logo: ExpressLogo
+      logo: ExpressLogo,
+      link: 'https://expressjs.com/'
     },
     {
       name: 'Git',
-      logo: GitLogo
+      logo: GitLogo,
+      link: 'https://git-scm.com/'
     },
     {
       name: 'Redux',
-      logo: ReduxLogo
+      logo: ReduxLogo,
+      link: 'https://redux.js.org/'
     },
     {
       name: 'Brightcove',
-      logo: BrightcoveLogo
+      logo: BrightcoveLogo,
+      link: 'https://www.brightcove.com/en/'
     },
     {
       name: 'video.js',
-      logo: VideojsLogo
+      logo: VideojsLogo,
+      link: 'https://videojs.com/'
     },
     {
       name: 'Jest',
-      logo: JestLogo
+      logo: JestLogo,
+      link: 'https://jestjs.io/'
     },
     // {
     //   name: 'BASH',
@@ -381,30 +394,36 @@ const constants = {
     // },
     {
       name: 'ffmpeg',
-      logo: FFmpegLogo
+      logo: FFmpegLogo,
+      link: 'https://www.ffmpeg.org/'
     },
     // {
     //   name: 'Adobe Creative Suites'
     // },
     {
       name: 'SQL',
-      logo: SQLLogo
+      logo: SQLLogo,
+      link: 'https://www.w3schools.com/sql/'
     },
     {
       name: 'PostgreSQL',
-      logo: PostgreSQLLogo
+      logo: PostgreSQLLogo,
+      link: 'https://www.postgresql.org/'
     },
     {
       name: 'Webpack',
-      logo: WebpackLogo
+      logo: WebpackLogo,
+      link: 'https://webpack.js.org/'
     },
     {
       name: 'GraphQL',
-      logo: GraphQLLogo
+      logo: GraphQLLogo,
+      link: 'https://graphql.org/'
     },
     {
       name: 'Django',
-      logo: DjangoLogo
+      logo: DjangoLogo,
+      link: 'https://www.djangoproject.com/'
     },
     // {
     //   name: 'Cron',
@@ -412,11 +431,13 @@ const constants = {
     // },
     {
       name: 'NextJS',
-      logo: NextJSLogo
+      logo: NextJSLogo,
+      link: 'https://nextjs.org/'
     },
     {
       name: 'TypeScript',
-      logo: TypescriptLogo
+      logo: TypescriptLogo,
+      link: 'https://www.typescriptlang.org/'
     }
   ]
 };
