@@ -5,14 +5,14 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faGlobeAmericas } from "@fortawesome/free-solid-svg-icons";
-import amcImage from "./assets/AMC_Image_Desktop.png";
+import amcImage from "./assets/AMC_Image.png";
 import bbcaImage from "./assets/BBCA_Image.png";
 import ifcImage from "./assets/IFC_Image.png";
 import sundanceImage from "./assets/Sundance_Image.png";
 import wetvImage from "./assets/WeTv_Image.png";
-import bloomImage from "./assets/Bloom_Full.jpg";
+import bloomImage from "./assets/Bloom_Full.png";
 import simmerImage from "./assets/Simmer_Full.jpg";
-import bigSpliceImage from "./assets/BigSplice_Full.jpg";
+import bigSpliceImage from "./assets/BigSplice_Full.png";
 import portfolioImage from "./assets/Portfolio_Full.png";
 import AMCNLogo from "./assets/AMCN_Logo.png";
 import BashLogo from "./assets/Bash_Logo.png";

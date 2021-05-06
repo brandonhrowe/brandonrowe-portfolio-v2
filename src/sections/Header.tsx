@@ -56,7 +56,7 @@ const getTextStyling = (val = 0) => {
 const Header = ({ color }: HeaderProps) => (
   <header style={getTextStyling(color)}>
     {headerLinks.map(({ text, link, external, className }) => (
-      <a href={link} {...isExternal(external)} className={className}>
+      <a key={text} href={link} {...isExternal(external)} className={className}>
         {text}
       </a>
     ))}
