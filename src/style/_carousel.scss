@@ -1,8 +1,11 @@
+$carousel-height: 30rem;
+
 .carousel-component {
   position: relative;
   display: flex;
   justify-content: center;
   width: 100vw;
+  max-height: $carousel-height;
 
   .carousel-tabs {
     position: absolute;
@@ -33,6 +36,7 @@
   }
 
   .carousel-viewport {
+    height: 100%;
     position: relative;
     white-space: nowrap;
     overflow-x: auto;
