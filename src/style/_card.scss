@@ -1,8 +1,12 @@
 $card-border-radius: 20px;
+$card-mobile-height: 45rem;
 $card-mobile-width: 18rem;
 $card-tablet-width: 36rem;
-$card-desktop-width: 48rem;
-$card-ultrawide-width: 56rem;
+$card-desktop-width: 35rem;
+$card-desktop-height: 35rem;
+$card-ultrawide-width: 45rem;
+$card-ultrawide-height: 45rem;
+$card-container-height: 75%;
 
 .card-component {
   display: flex;
@@ -12,14 +16,16 @@ $card-ultrawide-width: 56rem;
   align-items: center;
   background-repeat: no-repeat;
   width: $card-mobile-width;
-  height: 42rem;
+  height: $card-mobile-height;
 
   @media screen and (min-width: 760px) {
     width: $card-desktop-width;
+    height: $card-desktop-height;
   }
 
   @media screen and (min-width: 960px) {
-    height: 48rem;
+    width: $card-ultrawide-width;
+    height: $card-ultrawide-height;
   }
 
   .card-container {
@@ -32,7 +38,7 @@ $card-ultrawide-width: 56rem;
     border-radius: $card-border-radius;
     border: white 1px solid;
     width: $card-mobile-width;
-    height: 85%;
+    height: $card-container-height;
     background-size: cover;
     background-repeat: no-repeat;
     background-color:rgba(0, 0, 0, 0.7);

@@ -1,8 +1,11 @@
+$carousel-height: 40rem;
+
 .carousel-component {
   position: relative;
   display: flex;
   justify-content: center;
   width: 100vw;
+  max-height: $carousel-height;
 
   .carousel-tabs {
     position: absolute;
@@ -33,6 +36,7 @@
   }
 
   .carousel-viewport {
+    height: 100%;
     position: relative;
     white-space: nowrap;
     overflow-x: auto;
@@ -102,6 +106,18 @@
         position: relative;
       }
 
+      @media screen and (min-width: 1080px) {
+        svg {
+          font-size: 4rem;
+        }
+      }
+
+      @media screen and (min-width: 1440px) {
+        svg {
+          font-size: 5rem;
+        }
+      }
+
       &:hover {
         color: white;
         cursor: pointer;
@@ -116,6 +132,14 @@
       @media screen and (min-width: 600px) {
         left: 5rem;
       }
+
+      @media screen and (min-width: 1080px) {
+        left: 10rem;
+      }
+
+      @media screen and (min-width: 1440px) {
+        left: 15rem;
+      }
     }
 
     &.nav-right {
@@ -123,6 +147,14 @@
 
       @media screen and (min-width: 600px) {
         right: 5rem;
+      }
+
+      @media screen and (min-width: 1080px) {
+        right: 10rem;
+      }
+
+      @media screen and (min-width: 1440px) {
+        right: 15rem;
       }
     }
   }
