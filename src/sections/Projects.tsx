@@ -11,7 +11,7 @@ const Projects = () => (
     <div className="title-wrapper grid-top grid-h-center">
     <h1 className="hero-title">Projects</h1>
     </div>
-    <Carousel className="grid-bottom grid-h-center">
+    <Carousel className="grid-v-center grid-h-center">
       {projects.map((proj) => (
         <Card {...proj} key={proj.title} />
       ))}
