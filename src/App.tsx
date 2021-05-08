@@ -40,7 +40,8 @@ const App = () => {
 
   return (
     <div id="app" ref={appRef}>
-      <Header color={backgroundOpacity}/>
+      <div className="app-border" />
+      <Header color={backgroundOpacity} />
       <Hero
         backgroundVideo={backgroundVideo}
         className="app-hero"
