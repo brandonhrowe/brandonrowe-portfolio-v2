@@ -9,6 +9,10 @@
 @import "./style/carousel";
 @import "./style/logos";
 
+html {
+  scroll-behavior: smooth;
+}
+
 #app {
   font-family: 'Spartan', sans-serif;
   color: white;

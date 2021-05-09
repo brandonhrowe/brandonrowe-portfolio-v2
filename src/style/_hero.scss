@@ -33,6 +33,11 @@
     //   }
     // }
 
+    &.home {
+      height: 100vh;
+      min-height: auto;
+    }
+
     .home-content {
       color: white;
       text-align: center;
