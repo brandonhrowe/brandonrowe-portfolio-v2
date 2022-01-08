@@ -19,6 +19,7 @@ import BashLogo from "./assets/Bash_Logo.png";
 import BrightcoveLogo from "./assets/Brightcove_Logo.png";
 import CronLogo from "./assets/Cron_Logo.png";
 import CSSLogo from "./assets/CSS_Logo.png";
+import CSSModulesLogo from "./assets/CSSModules_Logo.png";
 import DeluxeLogo from "./assets/Deluxe_Logo.png";
 import DjangoLogo from "./assets/Django_Logo.png";
 import ExpressLogo from "./assets/Express_Logo.png";
@@ -32,15 +33,20 @@ import JSLogo from "./assets/JS_Logo.png";
 import NextJSLogo from "./assets/NextJS_Logo.png";
 import NodeLogo from "./assets/Node_Logo.png";
 import NYULogo from "./assets/NYU_Logo.png";
+import PHPLogo from "./assets/PHP_Logo.png";
 import PostgreSQLLogo from "./assets/Postgresql_Logo.png";
+import PreactLogo from "./assets/Preact_Logo.png";
 import PrimeFocusLogo from "./assets/PrimeFocus_Logo.png";
 import PythonLogo from "./assets/Python_Logo.png";
 import ReactLogo from "./assets/React_Logo.png";
+import RecoilLogo from "./assets/Recoil_Logo.svg";
 import ReduxLogo from "./assets/Redux_Logo.png";
+import RollupLogo from "./assets/Rollup_Logo.png";
 import SCSSLogo from "./assets/SCSS_Logo.jpeg";
 import SQLLogo from "./assets/SQL_Logo.jpg";
 import TypescriptLogo from "./assets/Typescript_Logo.png";
 import VideojsLogo from "./assets/Videojs_Logo.png";
+import VimeoLogo from "./assets/Vimeo_Logo.png";
 import WebpackLogo from "./assets/Webpack_Logo.png";
 import VideoHQ from "./assets/Portfolio_Video.mp4";
 import VideoLQ from "./assets/Portfolio_Video_1mbps.webm";
@@ -249,6 +255,12 @@ const constants = {
   ],
   experience: [
     {
+      name: "Vimeo",
+      logo: VimeoLogo,
+      link: "https://vimeo.com",
+      roles: []
+    },
+    {
       name: "AMC Networks",
       logo: AMCNLogo,
       link: "https://www.amc.com/",
@@ -337,6 +349,11 @@ const constants = {
       link: 'https://reactjs.org/'
     },
     {
+      name: 'Preact',
+      logo: PreactLogo,
+      link: 'https://preactjs.com/'
+    },
+    {
       name: 'HTML',
       logo: HTMLLogo,
       className: 'img-resize',
@@ -353,6 +370,11 @@ const constants = {
       logo: SCSSLogo,
       link: 'https://sass-lang.com/'
     },
+    // {
+    //   name: 'CSS Modules',
+    //   logo: CSSModulesLogo,
+    //   link: 'https://github.com/css-modules/css-modules'
+    // },
     {
       name: 'Node',
       logo: NodeLogo,
@@ -372,6 +394,11 @@ const constants = {
       name: 'Redux',
       logo: ReduxLogo,
       link: 'https://redux.js.org/'
+    },
+    {
+      name: 'Recoil',
+      logo: RecoilLogo,
+      link: 'https://recoiljs.org/'
     },
     {
       name: 'Brightcove',
@@ -397,6 +424,11 @@ const constants = {
       logo: FFmpegLogo,
       link: 'https://www.ffmpeg.org/'
     },
+    {
+      name: 'PHP',
+      logo: PHPLogo,
+      link: 'https://www.php.net/'
+    },
     // {
     //   name: 'Adobe Creative Suites'
     // },
@@ -414,6 +446,11 @@ const constants = {
       name: 'Webpack',
       logo: WebpackLogo,
       link: 'https://webpack.js.org/'
+    },
+    {
+      name: 'RollupJS',
+      logo: RollupLogo,
+      link: 'https://rollupjs.org/'
     },
     {
       name: 'GraphQL',

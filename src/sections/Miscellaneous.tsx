@@ -5,6 +5,8 @@ import constants from "../constants";
 
 const { resume, experience, tech } = constants;
 
+const ITEMS_PER_RING = 11;
+
 const Miscellaneous = () => {
   return (
     <Hero className="misc-hero" id="misc">
@@ -34,8 +36,8 @@ const Miscellaneous = () => {
       </div>
       <div className="misc-section tech-stack grid-v-center grid-right">
         <h1>The Tech I've Stacked</h1>
-        <Logos logos={tech.slice(0, 10)} className="tech tech1" />
-        <Logos logos={tech.slice(10)} className="tech tech2" />
+        <Logos logos={tech.slice(0, ITEMS_PER_RING)} className="tech tech1" />
+        <Logos logos={tech.slice(ITEMS_PER_RING)} className="tech tech2" />
       </div>
     </Hero>
   );
