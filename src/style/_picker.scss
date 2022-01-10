@@ -1,0 +1,113 @@
+.picker-component {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-height: 40rem;
+
+  @media screen and (min-width: 760px) {
+    margin-top: 10rem;
+  }
+
+  .card-component .card-text-container {
+    margin-bottom: 4rem;
+
+    @media screen and (min-width: 960px) {
+      margin-bottom: 3rem;
+    }
+  }
+
+  .thumbnails {
+    z-index: 10;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 8rem;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(41, 41, 41));
+    border-radius: 0 0 20px 20px;
+
+    @media screen and (min-width: 760px) {
+      background: linear-gradient(rgba(255, 255, 255, 0), rgb(79, 79, 79), black);
+      height: 6.5rem;
+      bottom: 6.5rem;
+    }
+
+    @media screen and (min-width: 960px) {
+      height: 8rem;
+      bottom: 7.9rem;
+    }
+
+    .thumbnail {
+      width: 3rem;
+      height: 3rem;
+      background-size: 5rem 5rem;
+      cursor: pointer;
+      transition: transform 0.25s ease-in-out;
+      display: none;
+      border: 1px solid rgb(114, 114, 114);
+
+      &.active {
+        border: 1px solid white;
+      }
+
+      @media screen and (min-width: 760px) {
+        display: block;
+        width: 5rem;
+        height: 5rem;
+      }
+
+      // .thumbnail-title {
+      //   display: none;
+      // }
+
+      &:hover {
+        transform: scale(1.5);
+
+        // .thumbnail-title {
+        //   display: block;
+        //   text-align: center;
+        //   text-shadow: 2px 2px 2px black;
+        // }
+      }
+
+      &:first-child {
+        border-radius: 0 0 0 20px;
+      }
+
+      &:last-child {
+        border-radius: 0 0 20px 0;
+      }
+    }
+  }
+
+  .thumbnail-navigation {
+    position: absolute;
+    display: flex;
+    bottom: 8.5rem;
+    text-align: center;
+    align-items: center;
+    text-shadow: 2px 2px 2px black;
+    right: 5%;
+    left: 5%;
+    width: 90%;
+    justify-content: space-between;
+    z-index: 30;
+
+    @media screen and (min-width: 760px) {
+      bottom: 2rem;
+    }
+
+    @media screen and (min-width: 960px) {
+      bottom: 4rem;
+    }
+    .nav-icon {
+      cursor: pointer;
+    }
+    .thumbnail-title {
+      margin: 0;
+    }
+  }
+}
