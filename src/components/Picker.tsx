@@ -30,7 +30,7 @@ const Picker = ({ cards = [], className }: PickerProps) => {
       <div className="thumbnails">
         {cards.map((card, idx) => (
           <div
-            className={`thumbnail ${idx === active && 'active'}`}
+            className={`thumbnail ${idx === active && "active"}`}
             key={idx}
             onClick={() => setActive(idx)}
             onMouseEnter={() => setHovered(idx)}
@@ -42,23 +42,21 @@ const Picker = ({ cards = [], className }: PickerProps) => {
       <div className="thumbnail-navigation">
         <FontAwesomeIcon
           icon={faArrowCircleLeft}
-          onClick={() =>
-            setActive(active <= 0 ? cards.length - 1 : active - 1)
-          }
+          onClick={() => setActive(active <= 0 ? cards.length - 1 : active - 1)}
           size="3x"
           className="nav-icon nav-left"
         />
-        {hovered !== null && cards[hovered] && (
-          <h6 className="thumbnail-title">{cards[hovered].title}</h6>
-        )}
         <FontAwesomeIcon
           icon={faArrowCircleRight}
-          onClick={() =>
-            setActive(active >= cards.length - 1 ? 0 : active + 1)
-          }
+          onClick={() => setActive(active >= cards.length - 1 ? 0 : active + 1)}
           size="3x"
           className="nav-icon nav-right"
         />
+      </div>
+      <div className="thumbnail-title-wrapper">
+        {hovered !== null && cards[hovered] && (
+          <h6 className="thumbnail-title">{cards[hovered].title}</h6>
+        )}
       </div>
     </div>
   );

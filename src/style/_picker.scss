@@ -90,7 +90,8 @@
   .thumbnail-navigation {
     position: absolute;
     display: flex;
-    bottom: 8.5rem;
+    height: 0;
+    bottom: 11.5rem;
     text-align: center;
     align-items: center;
     text-shadow: 2px 2px 2px black;
@@ -101,16 +102,52 @@
     z-index: 30;
 
     @media screen and (min-width: 760px) {
-      bottom: 2rem;
+      width: 120%;
+      left: -10%;
+      right: -10%;
+      bottom: 21rem;
     }
 
     @media screen and (min-width: 960px) {
-      bottom: 4rem;
+      width: 130%;
+      left: -15%;
+      right: -15%;
+      bottom: 25rem;
+
+      .nav-icon {
+        font-size: 5em;
+      }
     }
+
     .nav-icon {
+      position: absolute;
+      top: 30%;
       cursor: pointer;
+      transition: transform 0.25s ease-in-out;
+
+      &.nav-left {
+        left: 0;
+      }
+      &.nav-right {
+        right: 0;
+      }
+
+      &:hover {
+        transform: scale(1.25);
+      }
     }
+  }
+  .thumbnail-title-wrapper {
+    position: absolute;
+    bottom: 4rem;
+    width: 100%;
+
+    @media screen and (min-width: 960px) {
+      bottom: 5rem;
+    }
+
     .thumbnail-title {
+      text-align: center;
       margin: 0;
     }
   }
