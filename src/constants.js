@@ -15,6 +15,7 @@ import simmerImage from "./assets/Simmer_Full.jpg";
 import bigSpliceImage from "./assets/BigSplice_Full.png";
 import portfolioImage from "./assets/Portfolio_Full.png";
 import AMCNLogo from "./assets/AMCN_Logo.png";
+import AMCPlayer from "./assets/AMC_Player.png";
 import BashLogo from "./assets/Bash_Logo.png";
 import BrightcoveLogo from "./assets/Brightcove_Logo.png";
 import CronLogo from "./assets/Cron_Logo.png";
@@ -40,6 +41,7 @@ import PrimeFocusLogo from "./assets/PrimeFocus_Logo.png";
 import PythonLogo from "./assets/Python_Logo.png";
 import ReactLogo from "./assets/React_Logo.png";
 import RecoilLogo from "./assets/Recoil_Logo.svg";
+import ZustandLogo from "./assets/Zustand_Logo.png";
 import ReduxLogo from "./assets/Redux_Logo.png";
 import RollupLogo from "./assets/Rollup_Logo.png";
 import SCSSLogo from "./assets/SCSS_Logo.jpeg";
@@ -51,6 +53,10 @@ import WebpackLogo from "./assets/Webpack_Logo.png";
 import VideoHQ from "./assets/Portfolio_Video.mp4";
 import VideoLQ from "./assets/Portfolio_Video_1mbps.webm";
 import VideoPlaceholder from "./assets/Portfolio_Video Placeholder.jpg";
+import VimeoUI from "./assets/Vimeo_UI.png";
+import VimeoCCCustomization from "./assets/Vimeo_CC_Customization.png";
+import VimeoCustomColors from "./assets/Vimeo_Custom_Colors.png";
+import VimeoWebinar from "./assets/Vimeo_Webinar.png";
 import resume from "./assets/Brandon_H_Rowe_Tech_Resume_2021.pdf";
 
 const constants = {
@@ -89,6 +95,71 @@ const constants = {
     },
   ],
   projects: [
+    {
+      title: "Vimeo | Preact UI",
+      description: "A complete overhall of the Vimeo Player UI, made with Preact, Typescript, and Zustand.",
+      image: VimeoUI,
+      links: [
+        {
+          component: faGlobeAmericas,
+          link: "https://player.vimeo.com/video/76979871",
+          key: "vimeo-ui",
+          title: "Vimeo Player"
+        }
+      ]
+    },
+    {
+      title: "Vimeo | CC Customization",
+      description: "Customize the color, font, background, and more for closed captions.",
+      image: VimeoCCCustomization,
+      links: [
+        {
+          component: faGlobeAmericas,
+          link: "https://player.vimeo.com/video/76979871",
+          key: "vimeo-cc",
+          title: "Vimeo Player"
+        }
+      ]
+    },
+    {
+      title: "Vimeo | Custom Colors",
+      description: "Update the color scheme for the Vimeo Player in whatever manner is desired.",
+      image: VimeoCustomColors,
+      links: [
+        {
+          component: faGlobeAmericas,
+          link: "https://player.vimeo.com/video/76979871?color_one=0fda&color_two=06a&color_three=41b&color_four=442",
+          key: "vimeo-custom-colors",
+          title: "Vimeo Player"
+        }
+      ]
+    },
+    {
+      title: "Vimeo | Webinars",
+      description: "Create a webinar for all your live event needs.",
+      image: VimeoWebinar,
+      links: [
+        {
+          component: faGlobeAmericas,
+          link: "https://vimeo.com/features/virtual-events",
+          key: "vimeo-webinar",
+          title: "Webinars"
+        }
+      ]
+    },
+    {
+      title: "AMC | AMC Player",
+      description: "The video player to watch content from AMC+, AMC, and all the affiliated networks",
+      image: AMCPlayer,
+      links: [
+        {
+          component: faGlobeAmericas,
+          link: "https://www.amcplus.com/",
+          key: "amc-player",
+          title: "AMC+"
+        }
+      ]
+    },
     {
       title: "AMC | AMC Networks",
       description:
@@ -186,32 +257,32 @@ const constants = {
         },
       ],
     },
-    {
-      title: "Simmer",
-      description:
-        "Bookmark recipes from various cooking sites through the Simmer Chrome extension for on- and off-line access.",
-      image: simmerImage,
-      links: [
-        {
-          component: faGlobeAmericas,
-          link: "https://simmer.brook.li",
-          key: "simmer-site",
-          title: "Site",
-        },
-        {
-          component: faGithub,
-          link: "https://github.com/1902cs-indigo-oscar/Simmer",
-          key: "simmer-github",
-          title: "GitHub",
-        },
-        {
-          component: faYoutube,
-          link: "https://www.youtube.com/embed/N-c-Lw-gp-o",
-          key: "simmer-youtube",
-          title: "Presentation",
-        },
-      ],
-    },
+    // {
+    //   title: "Simmer",
+    //   description:
+    //     "Bookmark recipes from various cooking sites through the Simmer Chrome extension for on- and off-line access.",
+    //   image: simmerImage,
+    //   links: [
+    //     {
+    //       component: faGlobeAmericas,
+    //       link: "https://simmer.brook.li",
+    //       key: "simmer-site",
+    //       title: "Site",
+    //     },
+    //     {
+    //       component: faGithub,
+    //       link: "https://github.com/1902cs-indigo-oscar/Simmer",
+    //       key: "simmer-github",
+    //       title: "GitHub",
+    //     },
+    //     {
+    //       component: faYoutube,
+    //       link: "https://www.youtube.com/embed/N-c-Lw-gp-o",
+    //       key: "simmer-youtube",
+    //       title: "Presentation",
+    //     },
+    //   ],
+    // },
     {
       title: "The Big Splice",
       description:
@@ -376,6 +447,16 @@ const constants = {
     //   link: 'https://github.com/css-modules/css-modules'
     // },
     {
+      name: 'Zustand',
+      logo: ZustandLogo,
+      link: 'https://github.com/pmndrs/zustand'
+    },
+    {
+      name: 'Redux',
+      logo: ReduxLogo,
+      link: 'https://redux.js.org/'
+    },
+    {
       name: 'Node',
       logo: NodeLogo,
       link: 'https://nodejs.org/en/'
@@ -385,31 +466,26 @@ const constants = {
       logo: ExpressLogo,
       link: 'https://expressjs.com/'
     },
-    {
-      name: 'Git',
-      logo: GitLogo,
-      link: 'https://git-scm.com/'
-    },
-    {
-      name: 'Redux',
-      logo: ReduxLogo,
-      link: 'https://redux.js.org/'
-    },
-    {
-      name: 'Recoil',
-      logo: RecoilLogo,
-      link: 'https://recoiljs.org/'
-    },
+    // {
+    //   name: 'Git',
+    //   logo: GitLogo,
+    //   link: 'https://git-scm.com/'
+    // },
+    // {
+    //   name: 'Recoil',
+    //   logo: RecoilLogo,
+    //   link: 'https://recoiljs.org/'
+    // },
     {
       name: 'Brightcove',
       logo: BrightcoveLogo,
       link: 'https://www.brightcove.com/en/'
     },
-    {
-      name: 'video.js',
-      logo: VideojsLogo,
-      link: 'https://videojs.com/'
-    },
+    // {
+    //   name: 'video.js',
+    //   logo: VideojsLogo,
+    //   link: 'https://videojs.com/'
+    // },
     {
       name: 'Jest',
       logo: JestLogo,
@@ -452,11 +528,11 @@ const constants = {
       logo: RollupLogo,
       link: 'https://rollupjs.org/'
     },
-    {
-      name: 'GraphQL',
-      logo: GraphQLLogo,
-      link: 'https://graphql.org/'
-    },
+    // {
+    //   name: 'GraphQL',
+    //   logo: GraphQLLogo,
+    //   link: 'https://graphql.org/'
+    // },
     {
       name: 'Django',
       logo: DjangoLogo,
@@ -466,11 +542,11 @@ const constants = {
     //   name: 'Cron',
     //   logo: CronLogo
     // },
-    {
-      name: 'NextJS',
-      logo: NextJSLogo,
-      link: 'https://nextjs.org/'
-    },
+    // {
+    //   name: 'NextJS',
+    //   logo: NextJSLogo,
+    //   link: 'https://nextjs.org/'
+    // },
     {
       name: 'TypeScript',
       logo: TypescriptLogo,

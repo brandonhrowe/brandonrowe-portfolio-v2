@@ -46,9 +46,9 @@
     }
 
     .thumbnail {
-      width: 3rem;
-      height: 3rem;
-      background-size: 4rem 4rem;
+      width: 2rem;
+      height: 2rem;
+      background-size: 3rem 3rem;
       cursor: pointer;
       transition: transform 0.25s ease-in-out, opacity 0.25s;
       display: none;
@@ -64,13 +64,13 @@
 
       @media screen and (min-width: 760px) {
         display: block;
-        width: 3rem;
-        height: 3rem;
+        width: 2rem;
+        height: 2rem;
       }
 
       @media screen and (min-width: 960px) {
-        width: 4rem;
-        height: 4rem;
+        width: 3rem;
+        height: 3rem;
       }
 
       // .thumbnail-title {

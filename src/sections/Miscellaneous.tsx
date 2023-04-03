@@ -5,7 +5,7 @@ import constants from "../constants";
 
 const { resume, experience, tech } = constants;
 
-const ITEMS_PER_RING = 11;
+const ITEMS_PER_RING = 10;
 
 const Miscellaneous = () => {
   return (
