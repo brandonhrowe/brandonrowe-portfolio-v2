@@ -96,7 +96,7 @@ const constants = {
   ],
   projects: [
     {
-      title: "Vimeo | Preact UI",
+      title: "Preact UI | Vimeo",
       description: "A complete overhall of the Vimeo Player UI, made with Preact, Typescript, and Zustand.",
       image: VimeoUI,
       links: [
@@ -109,7 +109,7 @@ const constants = {
       ]
     },
     {
-      title: "Vimeo | CC Customization",
+      title: "CC Customization | Vimeo",
       description: "Customize the color, font, background, and more for closed captions.",
       image: VimeoCCCustomization,
       links: [
@@ -122,7 +122,7 @@ const constants = {
       ]
     },
     {
-      title: "Vimeo | Custom Colors",
+      title: "Custom Colors | Vimeo",
       description: "Update the color scheme for the Vimeo Player in whatever manner is desired.",
       image: VimeoCustomColors,
       links: [
@@ -135,7 +135,7 @@ const constants = {
       ]
     },
     {
-      title: "Vimeo | Webinars",
+      title: "Webinars | Vimeo",
       description: "Create a webinar for all your live event needs.",
       image: VimeoWebinar,
       links: [
@@ -148,7 +148,7 @@ const constants = {
       ]
     },
     {
-      title: "AMC | AMC Player",
+      title: "Video Player | AMC Networks",
       description: "The video player to watch content from AMC+, AMC, and all the affiliated networks",
       image: AMCPlayer,
       links: [
