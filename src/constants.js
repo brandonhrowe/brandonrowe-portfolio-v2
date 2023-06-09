@@ -230,33 +230,33 @@ const constants = {
         },
       ],
     },
-    {
-      title: "Bloom Writing",
-      description:
-        "Write stories with the help of randomly-generated prompts and sentence suggestions.",
-      image: bloomImage,
-      links: [
-        {
-          component: faGlobeAmericas,
-          link: "https://bloom-writing.herokuapp.com",
-          key: "bloom-site",
-          title: "Site",
-        },
-        {
-          component: faGithub,
-          link: "https://github.com/brandonhrowe/bloom-writing",
-          key: "bloom-github",
-          title: "GitHub",
-        },
-        {
-          component: faMedium,
-          link:
-            "https://medium.com/@brandon.h.rowe/in-search-of-lost-words-8a431227da67?source=friends_link&sk=a63a2cfe1c3ff9cf6d462754d452ab52",
-          key: "bloom-medium",
-          title: "Article",
-        },
-      ],
-    },
+    // {
+    //   title: "Bloom Writing",
+    //   description:
+    //     "Write stories with the help of randomly-generated prompts and sentence suggestions.",
+    //   image: bloomImage,
+    //   links: [
+    //     {
+    //       component: faGlobeAmericas,
+    //       link: "https://bloom-writing.herokuapp.com",
+    //       key: "bloom-site",
+    //       title: "Site",
+    //     },
+    //     {
+    //       component: faGithub,
+    //       link: "https://github.com/brandonhrowe/bloom-writing",
+    //       key: "bloom-github",
+    //       title: "GitHub",
+    //     },
+    //     {
+    //       component: faMedium,
+    //       link:
+    //         "https://medium.com/@brandon.h.rowe/in-search-of-lost-words-8a431227da67?source=friends_link&sk=a63a2cfe1c3ff9cf6d462754d452ab52",
+    //       key: "bloom-medium",
+    //       title: "Article",
+    //     },
+    //   ],
+    // },
     // {
     //   title: "Simmer",
     //   description:
