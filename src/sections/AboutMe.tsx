@@ -11,8 +11,8 @@ const AboutMe = () => (
         </div>
         <p>
           I am a Software Engineer, located in Brooklyn, NY. I
-          specialize in JavaScript and the NERD stack (Node, Express, React,
-          Postgres Databases), with additional experience in Python and Django.
+          specialize in JavaScript and React, with experience in other technologies such as
+          Python, Redux, Zustand, Express, Media Source Extensions,and ffmpeg.
           I have been employed as a Software Engineer for the Video Playback
           team at Vimeo since 2021.
           <br />
