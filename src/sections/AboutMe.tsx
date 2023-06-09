@@ -10,7 +10,7 @@ const AboutMe = () => (
           <h1 className="hero-title">About Me</h1>
         </div>
         <p>
-          I am a Fullstack Software Engineer, located in Brooklyn, NY. I
+          I am a Software Engineer, located in Brooklyn, NY. I
           specialize in JavaScript and the NERD stack (Node, Express, React,
           Postgres Databases), with additional experience in Python and Django.
           I have been employed as a Software Engineer for the Video Playback
