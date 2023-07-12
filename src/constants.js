@@ -57,7 +57,7 @@ import VimeoUI from "./assets/Vimeo_UI.png";
 import VimeoCCCustomization from "./assets/Vimeo_CC_Customization.png";
 import VimeoCustomColors from "./assets/Vimeo_Custom_Colors.png";
 import VimeoWebinar from "./assets/Vimeo_Webinar.png";
-import resume from "./assets/Brandon_H_Rowe_Tech_Resume_2021.pdf";
+import resume from "./assets/Brandon_H_Rowe_Tech_Resume_2023.pdf";
 
 const constants = {
   resume,
