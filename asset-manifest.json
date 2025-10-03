@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.84ad20e4.chunk.css",
-    "main.js": "/static/js/main.28cff48d.chunk.js",
-    "main.js.map": "/static/js/main.28cff48d.chunk.js.map",
+    "main.js": "/static/js/main.203f7a70.chunk.js",
+    "main.js.map": "/static/js/main.203f7a70.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e9589df8.js",
     "runtime-main.js.map": "/static/js/runtime-main.e9589df8.js.map",
     "static/js/2.1e8b90f4.chunk.js": "/static/js/2.1e8b90f4.chunk.js",
@@ -29,6 +29,7 @@
     "static/media/Fullstack_Logo.fe9abe34.png": "/static/media/Fullstack_Logo.fe9abe34.png",
     "static/media/Git_Logo.c2f5c09e.png": "/static/media/Git_Logo.c2f5c09e.png",
     "static/media/GraphQL_Logo.5abef1eb.png": "/static/media/GraphQL_Logo.5abef1eb.png",
+    "static/media/Hlsjs_Logo.e241a01e.png": "/static/media/Hlsjs_Logo.e241a01e.png",
     "static/media/IFC_Image.1791c199.png": "/static/media/IFC_Image.1791c199.png",
     "static/media/JS_Logo.b08bf619.png": "/static/media/JS_Logo.b08bf619.png",
     "static/media/MultiAudio_Image.a94760ba.png": "/static/media/MultiAudio_Image.a94760ba.png",
@@ -67,6 +68,6 @@
     "static/js/runtime-main.e9589df8.js",
     "static/js/2.1e8b90f4.chunk.js",
     "static/css/main.84ad20e4.chunk.css",
-    "static/js/main.28cff48d.chunk.js"
+    "static/js/main.203f7a70.chunk.js"
   ]
 }
