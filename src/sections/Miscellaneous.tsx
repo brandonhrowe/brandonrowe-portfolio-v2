@@ -15,7 +15,8 @@ const Miscellaneous = () => {
         <h3>(aka all the other fun stuff)</h3>
       </div>
       <div className="misc-section resume grid-v-center grid-h-center">
-        <h1>The Resume I Gift To You</h1>
+        <h1>The resume I gift to you</h1>
+        <h5>(It's free!)</h5>
         <div className="arrow-down">
           <div>|</div>
           <div>|</div>
@@ -27,15 +28,15 @@ const Miscellaneous = () => {
           target="_blank"
           className="resume-download"
         >
-          <span>Download (It's Free!)</span>
+          <span>Download resume</span>
         </a>
       </div>
       <div className="misc-section places grid-v-center grid-left">
-        <h1>The Places I've Been</h1>
+        <h1>The places I've been</h1>
         <Logos logos={experience} className="places" />
       </div>
       <div className="misc-section tech-stack grid-v-center grid-right">
-        <h1>The Tech I've Stacked</h1>
+        <h1>The tech I've stacked</h1>
         <Logos logos={tech.slice(0, ITEMS_PER_RING)} className="tech tech1" />
         <Logos logos={tech.slice(ITEMS_PER_RING)} className="tech tech2" />
       </div>
