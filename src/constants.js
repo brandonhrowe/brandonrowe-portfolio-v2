@@ -17,6 +17,7 @@ import bloomImage from "./assets/Bloom_Full.png";
 import simmerImage from "./assets/Simmer_Full.jpg";
 import bigSpliceImage from "./assets/BigSplice_Full.png";
 import portfolioImage from "./assets/Portfolio_Full.png";
+import hlsjsLogo from './assets/Hlsjs_Logo.png';
 import AMCNLogo from "./assets/AMCN_Logo.png";
 import AMCPlayer from "./assets/AMC_Player.png";
 import BashLogo from "./assets/Bash_Logo.png";
@@ -449,11 +450,6 @@ const constants = {
       link: 'https://go.dev/'
     },
     {
-      name: 'PHP',
-      logo: PHPLogo,
-      link: 'https://www.php.net/'
-    },
-    {
       name: 'ffmpeg',
       logo: FFmpegLogo,
       link: 'https://www.ffmpeg.org/'
@@ -478,6 +474,26 @@ const constants = {
     //   logo: CSSModulesLogo,
     //   link: 'https://github.com/css-modules/css-modules'
     // },
+    {
+      name: 'hls.js',
+      logo: hlsjsLogo,
+      link: 'https://hlsjs.video-dev.org/demo/'
+    },
+    {
+      name: 'video.js',
+      logo: VideojsLogo,
+      link: 'https://videojs.com/'
+    },
+    {
+      name: 'Brightcove',
+      logo: BrightcoveLogo,
+      link: 'https://www.brightcove.com/en/'
+    },
+    {
+      name: 'PHP',
+      logo: PHPLogo,
+      link: 'https://www.php.net/'
+    },
     {
       name: 'Zustand',
       logo: ZustandLogo,
@@ -512,16 +528,6 @@ const constants = {
     //   name: 'Recoil',
     //   logo: RecoilLogo,
     //   link: 'https://recoiljs.org/'
-    // },
-    {
-      name: 'Brightcove',
-      logo: BrightcoveLogo,
-      link: 'https://www.brightcove.com/en/'
-    },
-    // {
-    //   name: 'video.js',
-    //   logo: VideojsLogo,
-    //   link: 'https://videojs.com/'
     // },
     {
       name: 'Jest',
