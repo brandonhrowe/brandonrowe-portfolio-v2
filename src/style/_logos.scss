@@ -18,7 +18,7 @@ $items-per-ring: 10;
     margin: -($item-size / 2);
 
     $angle: (360 / $item-count);
-    $rot: 0;
+    $rot: 270;
 
     @for $i from 1 through $item-count {
       &:nth-of-type(#{$i}) {
@@ -44,7 +44,7 @@ $items-per-ring: 10;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: transform 1s ease;
+  transition: transform 0.5s ease;
   width: 100%;
   height: 100%;
   box-shadow: 2px 2px 10px black;

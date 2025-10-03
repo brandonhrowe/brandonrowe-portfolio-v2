@@ -10,6 +10,9 @@ import bbcaImage from "./assets/BBCA_Image.png";
 import ifcImage from "./assets/IFC_Image.png";
 import sundanceImage from "./assets/Sundance_Image.png";
 import wetvImage from "./assets/WeTv_Image.png";
+import smallPlayerImage from './assets/SmallPlayer_Image.png';
+import multiAudioImage from './assets/MultiAudio_Image.png';
+import customizationImage from './assets/StyleCustomization_Image.png';
 import bloomImage from "./assets/Bloom_Full.png";
 import simmerImage from "./assets/Simmer_Full.jpg";
 import bigSpliceImage from "./assets/BigSplice_Full.png";
@@ -27,6 +30,7 @@ import ExpressLogo from "./assets/Express_Logo.png";
 import FFmpegLogo from "./assets/FFmpeg_Logo.png";
 import FullstackLogo from "./assets/Fullstack_Logo.png";
 import GitLogo from "./assets/Git_Logo.png";
+import GoLogo from "./assets/Go_Logo.png";
 import GraphQLLogo from "./assets/GraphQL_Logo.png";
 import HTMLLogo from "./assets/HTML_Logo.png";
 import JestLogo from "./assets/Jest_Logo.png";
@@ -57,7 +61,7 @@ import VimeoUI from "./assets/Vimeo_UI.png";
 import VimeoCCCustomization from "./assets/Vimeo_CC_Customization.png";
 import VimeoCustomColors from "./assets/Vimeo_Custom_Colors.png";
 import VimeoWebinar from "./assets/Vimeo_Webinar.png";
-import resume from "./assets/Brandon_H_Rowe_Tech_Resume_2023.pdf";
+import resume from "./assets/Brandon_H_Rowe_Tech_Resume_2025_v2.pdf";
 
 const constants = {
   resume,
@@ -96,35 +100,48 @@ const constants = {
   ],
   projects: [
     {
-      title: "Preact UI | Vimeo",
+      title: "Player Redesign | Vimeo",
       description: "A complete overhall of the Vimeo Player UI, made with Preact, Typescript, and Zustand.",
-      image: VimeoUI,
+      image: smallPlayerImage,
       links: [
         {
           component: faGlobeAmericas,
-          link: "https://player.vimeo.com/video/76979871",
+          link: "https://vimeo.com/76979871",
           key: "vimeo-ui",
           title: "Vimeo Player"
         }
       ]
     },
     {
-      title: "CC Customization | Vimeo",
-      description: "Customize the color, font, background, and more for closed captions.",
-      image: VimeoCCCustomization,
+      title: "Multiple Audio Tracks | Vimeo",
+      description: "Play audio in multiple languages for your videos.",
+      image: multiAudioImage,
       links: [
         {
           component: faGlobeAmericas,
-          link: "https://player.vimeo.com/video/76979871",
-          key: "vimeo-cc",
+          link: "https://player.vimeo.com/video/882659745",
+          key: "vimeo-audio",
           title: "Vimeo Player"
         }
       ]
     },
+    // {
+    //   title: "CC Customization | Vimeo",
+    //   description: "Customize the color, font, background, and more for closed captions.",
+    //   image: VimeoCCCustomization,
+    //   links: [
+    //     {
+    //       component: faGlobeAmericas,
+    //       link: "https://player.vimeo.com/video/76979871",
+    //       key: "vimeo-cc",
+    //       title: "Vimeo Player"
+    //     }
+    //   ]
+    // },
     {
-      title: "Custom Colors | Vimeo",
-      description: "Update the color scheme for the Vimeo Player in whatever manner is desired.",
-      image: VimeoCustomColors,
+      title: "Player Customization | Vimeo",
+      description: "Customize the Vimeo player color scheme, captions, and playback engine options.",
+      image: customizationImage,
       links: [
         {
           component: faGlobeAmericas,
@@ -134,19 +151,19 @@ const constants = {
         }
       ]
     },
-    {
-      title: "Webinars | Vimeo",
-      description: "Create a webinar for all your live event needs.",
-      image: VimeoWebinar,
-      links: [
-        {
-          component: faGlobeAmericas,
-          link: "https://vimeo.com/features/virtual-events",
-          key: "vimeo-webinar",
-          title: "Webinars"
-        }
-      ]
-    },
+    // {
+    //   title: "Webinars | Vimeo",
+    //   description: "Create a webinar for all your live event needs.",
+    //   image: VimeoWebinar,
+    //   links: [
+    //     {
+    //       component: faGlobeAmericas,
+    //       link: "https://vimeo.com/features/virtual-events",
+    //       key: "vimeo-webinar",
+    //       title: "Webinars"
+    //     }
+    //   ]
+    // },
     {
       title: "Video Player | AMC Networks",
       description: "The video player to watch content from AMC+, AMC, and all the affiliated networks",
@@ -163,7 +180,7 @@ const constants = {
     {
       title: "AMC | AMC Networks",
       description:
-        "Watch the latest full episodes and video extras for AMC shows: The Walking Dead, Better Call Saul, Killing Eve, Fear the Walking Dead, Mad Men and more.",
+        "Watch the latest full episodes and video extras for AMC shows: Mad Men, BreakingBad, Better Call Saul, and more.",
       image: amcImage,
       links: [
         {
@@ -177,7 +194,7 @@ const constants = {
     {
       title: "BBC America | AMC Networks",
       description:
-        "Watch the latest full episodes and video extras for BBC America shows: Doctor Who, Killing Eve, Orphan Black, Luther, Planet Earth and more.",
+        "Watch the latest full episodes and video extras for BBC America shows: Doctor Who, Killing Eve, Orphan Black, and more.",
       image: bbcaImage,
       links: [
         {
@@ -191,7 +208,7 @@ const constants = {
     {
       title: "IFC | AMC Networks",
       description:
-        "Watch the latest full episodes and video extras for IFC shows: Sherman's Showcase, Brockmire, Documentary Now!, Portlandia, Stan Against Evil and more.",
+        "Watch the latest full episodes and video extras for IFC shows: Documentary Now!, Portlandia, Brockmire, and more.",
       image: ifcImage,
       links: [
         {
@@ -202,34 +219,34 @@ const constants = {
         },
       ],
     },
-    {
-      title: "SundanceTV | AMC Networks",
-      description:
-        "Watch the latest full episodes and video extras for SundanceTV shows: Liar, The Split, Back, The A Word, Close Up With Hollywood Reporter and more.",
-      image: sundanceImage,
-      links: [
-        {
-          component: faGlobeAmericas,
-          link: "https://www.sundancetv.com/",
-          key: "sundance-site",
-          title: "SundanceTV",
-        },
-      ],
-    },
-    {
-      title: "WEtv | AMC Networks",
-      description:
-        "Watch the latest full episodes and video extras for WE tv shows: Marriage Boot Camp, Growing Up Hip Hop, Braxton Family Values, Love After Lockup, Mama June: From Not to Hot and more.",
-      image: wetvImage,
-      links: [
-        {
-          component: faGlobeAmericas,
-          link: "https://www.wetv.com/",
-          key: "wetv-site",
-          title: "WEtv",
-        },
-      ],
-    },
+    // {
+    //   title: "SundanceTV | AMC Networks",
+    //   description:
+    //     "Watch the latest full episodes and video extras for SundanceTV shows: Liar, The Split, Back, The A Word, Close Up With Hollywood Reporter and more.",
+    //   image: sundanceImage,
+    //   links: [
+    //     {
+    //       component: faGlobeAmericas,
+    //       link: "https://www.sundancetv.com/",
+    //       key: "sundance-site",
+    //       title: "SundanceTV",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "WEtv | AMC Networks",
+    //   description:
+    //     "Watch the latest full episodes and video extras for WE tv shows: Marriage Boot Camp, Growing Up Hip Hop, Braxton Family Values, Love After Lockup, Mama June: From Not to Hot and more.",
+    //   image: wetvImage,
+    //   links: [
+    //     {
+    //       component: faGlobeAmericas,
+    //       link: "https://www.wetv.com/",
+    //       key: "wetv-site",
+    //       title: "WEtv",
+    //     },
+    //   ],
+    // },
     // {
     //   title: "Bloom Writing",
     //   description:
@@ -410,21 +427,6 @@ const constants = {
       link: 'https://www.javascript.com/'
     },
     {
-      name: 'Python',
-      logo: PythonLogo,
-      link: 'https://www.python.org/'
-    },
-    {
-      name: 'React',
-      logo: ReactLogo,
-      link: 'https://reactjs.org/'
-    },
-    {
-      name: 'Preact',
-      logo: PreactLogo,
-      link: 'https://preactjs.com/'
-    },
-    {
       name: 'HTML',
       logo: HTMLLogo,
       className: 'img-resize',
@@ -437,9 +439,39 @@ const constants = {
       link: 'https://www.w3schools.com/css/'
     },
     {
-      name: 'SCSS',
-      logo: SCSSLogo,
-      link: 'https://sass-lang.com/'
+      name: 'Python',
+      logo: PythonLogo,
+      link: 'https://www.python.org/'
+    },
+    {
+      name: 'Golang',
+      logo: GoLogo,
+      link: 'https://go.dev/'
+    },
+    {
+      name: 'PHP',
+      logo: PHPLogo,
+      link: 'https://www.php.net/'
+    },
+    {
+      name: 'ffmpeg',
+      logo: FFmpegLogo,
+      link: 'https://www.ffmpeg.org/'
+    },
+    {
+      name: 'Preact',
+      logo: PreactLogo,
+      link: 'https://preactjs.com/'
+    },
+    {
+      name: 'React',
+      logo: ReactLogo,
+      link: 'https://reactjs.org/'
+    },
+    {
+      name: 'TypeScript',
+      logo: TypescriptLogo,
+      link: 'https://www.typescriptlang.org/'
     },
     // {
     //   name: 'CSS Modules',
@@ -455,6 +487,11 @@ const constants = {
       name: 'Redux',
       logo: ReduxLogo,
       link: 'https://redux.js.org/'
+    },
+    {
+      name: 'SCSS',
+      logo: SCSSLogo,
+      link: 'https://sass-lang.com/'
     },
     {
       name: 'Node',
@@ -495,16 +532,6 @@ const constants = {
     //   name: 'BASH',
     //   logo: BashLogo
     // },
-    {
-      name: 'ffmpeg',
-      logo: FFmpegLogo,
-      link: 'https://www.ffmpeg.org/'
-    },
-    {
-      name: 'PHP',
-      logo: PHPLogo,
-      link: 'https://www.php.net/'
-    },
     // {
     //   name: 'Adobe Creative Suites'
     // },
@@ -513,11 +540,11 @@ const constants = {
       logo: SQLLogo,
       link: 'https://www.w3schools.com/sql/'
     },
-    {
-      name: 'PostgreSQL',
-      logo: PostgreSQLLogo,
-      link: 'https://www.postgresql.org/'
-    },
+    // {
+    //   name: 'PostgreSQL',
+    //   logo: PostgreSQLLogo,
+    //   link: 'https://www.postgresql.org/'
+    // },
     {
       name: 'Webpack',
       logo: WebpackLogo,
@@ -533,11 +560,11 @@ const constants = {
     //   logo: GraphQLLogo,
     //   link: 'https://graphql.org/'
     // },
-    {
-      name: 'Django',
-      logo: DjangoLogo,
-      link: 'https://www.djangoproject.com/'
-    },
+    // {
+    //   name: 'Django',
+    //   logo: DjangoLogo,
+    //   link: 'https://www.djangoproject.com/'
+    // },
     // {
     //   name: 'Cron',
     //   logo: CronLogo
@@ -547,11 +574,6 @@ const constants = {
     //   logo: NextJSLogo,
     //   link: 'https://nextjs.org/'
     // },
-    {
-      name: 'TypeScript',
-      logo: TypescriptLogo,
-      link: 'https://www.typescriptlang.org/'
-    }
   ]
 };
 

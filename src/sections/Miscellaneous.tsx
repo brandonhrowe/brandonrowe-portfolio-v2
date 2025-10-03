@@ -27,7 +27,7 @@ const Miscellaneous = () => {
           target="_blank"
           className="resume-download"
         >
-          <span>DOWNLOAD (It's Free!)</span>
+          <span>Download (It's Free!)</span>
         </a>
       </div>
       <div className="misc-section places grid-v-center grid-left">
