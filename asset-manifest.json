@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.a6a935f2.chunk.css",
-    "main.js": "/static/js/main.4e13e7b4.chunk.js",
-    "main.js.map": "/static/js/main.4e13e7b4.chunk.js.map",
+    "main.css": "/static/css/main.84ad20e4.chunk.css",
+    "main.js": "/static/js/main.28cff48d.chunk.js",
+    "main.js.map": "/static/js/main.28cff48d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e9589df8.js",
     "runtime-main.js.map": "/static/js/runtime-main.e9589df8.js.map",
     "static/js/2.1e8b90f4.chunk.js": "/static/js/2.1e8b90f4.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.87c20523.chunk.js": "/static/js/3.87c20523.chunk.js",
     "static/js/3.87c20523.chunk.js.map": "/static/js/3.87c20523.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a6a935f2.chunk.css.map": "/static/css/main.a6a935f2.chunk.css.map",
+    "static/css/main.84ad20e4.chunk.css.map": "/static/css/main.84ad20e4.chunk.css.map",
     "static/js/2.1e8b90f4.chunk.js.LICENSE.txt": "/static/js/2.1e8b90f4.chunk.js.LICENSE.txt",
     "static/media/AMCN_Logo.e597f502.png": "/static/media/AMCN_Logo.e597f502.png",
     "static/media/AMC_Image.331a7182.png": "/static/media/AMC_Image.331a7182.png",
@@ -18,7 +18,7 @@
     "static/media/BBCA_Image.14b6fe7e.png": "/static/media/BBCA_Image.14b6fe7e.png",
     "static/media/BigSplice_Full.b58534b5.png": "/static/media/BigSplice_Full.b58534b5.png",
     "static/media/Bloom_Full.1ca2b8da.png": "/static/media/Bloom_Full.1ca2b8da.png",
-    "static/media/Brandon_H_Rowe_Tech_Resume_2023.c318d4c6.pdf": "/static/media/Brandon_H_Rowe_Tech_Resume_2023.c318d4c6.pdf",
+    "static/media/Brandon_H_Rowe_Tech_Resume_2025_v2.513977fa.pdf": "/static/media/Brandon_H_Rowe_Tech_Resume_2025_v2.513977fa.pdf",
     "static/media/Brightcove_Logo.29cdc52b.png": "/static/media/Brightcove_Logo.29cdc52b.png",
     "static/media/CSSModules_Logo.4aabd776.png": "/static/media/CSSModules_Logo.4aabd776.png",
     "static/media/CSS_Logo.5447a478.png": "/static/media/CSS_Logo.5447a478.png",
@@ -31,6 +31,7 @@
     "static/media/GraphQL_Logo.5abef1eb.png": "/static/media/GraphQL_Logo.5abef1eb.png",
     "static/media/IFC_Image.1791c199.png": "/static/media/IFC_Image.1791c199.png",
     "static/media/JS_Logo.b08bf619.png": "/static/media/JS_Logo.b08bf619.png",
+    "static/media/MultiAudio_Image.a94760ba.png": "/static/media/MultiAudio_Image.a94760ba.png",
     "static/media/NYU_Logo.092e31e1.png": "/static/media/NYU_Logo.092e31e1.png",
     "static/media/NextJS_Logo.6db19b31.png": "/static/media/NextJS_Logo.6db19b31.png",
     "static/media/Node_Logo.c2e22c63.png": "/static/media/Node_Logo.c2e22c63.png",
@@ -49,6 +50,8 @@
     "static/media/SCSS_Logo.d01a1e20.jpeg": "/static/media/SCSS_Logo.d01a1e20.jpeg",
     "static/media/SQL_Logo.e997467c.jpg": "/static/media/SQL_Logo.e997467c.jpg",
     "static/media/Simmer_Full.79c7075c.jpg": "/static/media/Simmer_Full.79c7075c.jpg",
+    "static/media/SmallPlayer_Image.a2de086e.png": "/static/media/SmallPlayer_Image.a2de086e.png",
+    "static/media/StyleCustomization_Image.84d04590.png": "/static/media/StyleCustomization_Image.84d04590.png",
     "static/media/Sundance_Image.0912a801.png": "/static/media/Sundance_Image.0912a801.png",
     "static/media/Typescript_Logo.5c70a1d2.png": "/static/media/Typescript_Logo.5c70a1d2.png",
     "static/media/Videojs_Logo.7a6c59f4.png": "/static/media/Videojs_Logo.7a6c59f4.png",
@@ -63,7 +66,7 @@
   "entrypoints": [
     "static/js/runtime-main.e9589df8.js",
     "static/js/2.1e8b90f4.chunk.js",
-    "static/css/main.a6a935f2.chunk.css",
-    "static/js/main.4e13e7b4.chunk.js"
+    "static/css/main.84ad20e4.chunk.css",
+    "static/js/main.28cff48d.chunk.js"
   ]
 }
